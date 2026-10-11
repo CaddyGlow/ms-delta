@@ -2,7 +2,9 @@
 
 This standalone Rust 2024 package provides PA19, PA30, PA31, and MS-PATCH LZX
 Delta creation and reconstruction. The library uses `std`; `cli` enables the
-optional command-line tool and CLI argument types. Dependencies resolve from
+optional command-line tool and CLI argument types. Default features preserve all
+formats and metadata serialization; keep format-only, serialization-only and
+empty-feature builds working. Dependencies resolve from
 crates.io. Preserve codec attribution, license texts, original fixture bytes,
 and historical validation evidence.
 

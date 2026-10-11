@@ -254,9 +254,9 @@ checksum = "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98"
 
 [[package]]
 name = "ms-compress"
-version = "0.1.2"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2a171863591b764e540b4dabd5a73fe89b5380826d92ac4d02d1612ed12812ea"
+checksum = "9e2130680b37bf2de02ef65948e26e702ce8b7cb0857aa1bdd4ac74e15ab4495"
 dependencies = [
  "ms-compress-ruzstd",
 ]

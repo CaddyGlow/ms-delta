@@ -2,16 +2,25 @@
 //!
 //! These codecs reconstruct bytes. They do not install Windows packages, update
 //! component-store state, establish catalog trust, or replace CBS servicing.
+//!
+//! Default features enable all formats and metadata serialization. Disable defaults
+//! and select `lzxd`, `pa19`, `pa30`, or `pa31` for a smaller library. PA19 includes
+//! LZX Delta; PA31 includes PA30. `serde` enables metadata serialization, and `cli`
+//! enables the complete command-line tool. The library requires `std` in every build.
 #![forbid(unsafe_code)]
 
 use std::{fmt, io};
 
 #[cfg(feature = "cli")]
 pub mod cli;
+#[cfg(feature = "lzxd")]
 mod lzxd_encode;
+#[cfg(feature = "pa19")]
 pub mod pa19;
+#[cfg(feature = "pa30")]
 pub mod pa30;
 
+#[cfg(feature = "lzxd")]
 pub use lzxd_encode::create_lzxd;
 
 /// Resource bounds checked before reconstruction or untrusted-size allocation.
@@ -98,6 +107,7 @@ pub type Result<T> = std::result::Result<T, Error>;
 /// The format does not identify its target length or window size. The caller
 /// supplies both; `window_order` is the base-two logarithm of the history size.
 /// A separate expected target hash should be checked when one is available.
+#[cfg(feature = "lzxd")]
 pub fn apply_lzxd(
     source: &[u8],
     delta: &[u8],

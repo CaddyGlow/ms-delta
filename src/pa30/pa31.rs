@@ -6,10 +6,11 @@ use crate::{Error, Limits, Result};
 use sha2::{Digest, Sha256};
 
 /// PA31 metadata including its extended header and optional source digest.
-#[derive(Clone, Debug, Eq, PartialEq, serde::Serialize)]
+#[derive(Clone, Debug, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Pa31Info {
     /// Common delta metadata.
-    #[serde(flatten)]
+    #[cfg_attr(feature = "serde", serde(flatten))]
     pub metadata: Pa30Info,
     /// Three native extended header fields, commonly `[136, 1, 0]`.
     /// The first two are opaque; the third supports values zero and one.

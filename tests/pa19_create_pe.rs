@@ -1,3 +1,5 @@
+#![cfg(feature = "pa19")]
+
 //! PA19 creation with Intel `E8` translation and PE32 awareness. Every patch is applied with
 //! `apply_pa19`; the real `mspatcha.dll` also applied our PE and `E8` patches on a Windows guest
 //! (see the module documentation of `pa19`). The images here are synthetic and need no Microsoft

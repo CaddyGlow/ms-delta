@@ -1,3 +1,5 @@
+#![cfg(feature = "lzxd")]
+
 use ms_delta::{Limits, apply_lzxd, create_lzxd};
 
 fn roundtrip(source: &[u8], target: &[u8], order: u8) -> Vec<u8> {

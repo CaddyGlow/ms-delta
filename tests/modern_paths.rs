@@ -1,3 +1,5 @@
+#![cfg(feature = "pa31")]
+
 use ms_delta::{
     Limits,
     pa30::{apply_pa30, apply_pa31, create_pa30_pe, create_pa31_pe},

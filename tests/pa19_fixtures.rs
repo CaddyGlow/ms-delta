@@ -1,3 +1,5 @@
+#![cfg(feature = "pa19")]
+
 //! PA19 patches created by the real `mspatchc.dll` from synthetic files (see
 //! `tests/fixtures/pa19/README.md`) must be reconstructed byte for byte.
 

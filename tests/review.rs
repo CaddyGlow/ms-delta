@@ -1,3 +1,5 @@
+#![cfg(all(feature = "pa30", feature = "lzxd"))]
+
 //! Independent API review regressions using Windows-generated PA30 fixtures.
 use ms_delta::{Error, Limits, apply_lzxd, pa30::apply_pa30};
 use std::path::Path;

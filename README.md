@@ -78,6 +78,44 @@ verbatim/aligned/uncompressed blocks, extended lengths, and optional Intel E8
 translation. Its target size and window order come from the caller. LZX Delta
 and PA30 have different framing and bitstreams; they are not interchangeable.
 
+## Cargo features
+
+Defaults enable `all-formats` and `serde`, preserving the full library API.
+Use `default-features = false` to select only the formats you need:
+
+```toml
+ms-delta = { version = "0.1", default-features = false, features = ["pa30"] }
+```
+
+| Feature | Enables |
+| --- | --- |
+| `lzxd` | MS-PATCH LZX Delta creation and reconstruction |
+| `pa19` | PA19 inspection, creation and reconstruction; includes `lzxd` |
+| `pa30` | PA30 inspection, creation and reconstruction, including PE and managed transforms |
+| `pa31` | PA31 envelopes and reverse playback; includes the shared `pa30` engine |
+| `all-formats` | All four format features |
+| `serde` | Serialization of enabled formats' inspection metadata |
+| `cli` | Complete command-line tool; includes `all-formats` and `serde` |
+
+With no features, only `Limits`, `Error`, and `Result` remain, with no normal
+third-party dependencies. Every configuration requires `std`. Formats include
+both creation and reconstruction; transform and hash support stays together
+with the format so selecting it preserves its complete validated behavior.
+PA31 APIs remain under `ms_delta::pa30` for compatibility.
+
+Compression algorithms live in `ms-compress`; patch containers, integrity checks,
+and executable transforms live here. The `ms-compress` dependency disables defaults:
+`lzxd` (and therefore `pa19`) enables only LZX, while `pa30` (and therefore `pa31`)
+enables LZMS and XPRESS. Enabling every patch format still excludes unrelated codecs.
+
+## Releases
+
+Install the CLI from crates.io with `cargo install ms-delta --features cli --locked`.
+Tags matching the Cargo version run Linux/Windows tests and the feature matrix,
+verify the crate package, publish it to crates.io, and attach the `.crate` archive
+and SHA-256 checksum to the GitHub release. The release environment supplies
+`CARGO_REGISTRY_TOKEN` through a GitHub Actions secret.
+
 ## Library
 
 ```rust

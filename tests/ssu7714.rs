@@ -1,3 +1,5 @@
+#![cfg(feature = "pa30")]
+
 //! Genuine native oracle regressions; external evidence is intentionally retained
 //! separately rather than embedding multi-megabyte Microsoft binaries in tests.
 use ms_delta::{Limits, pa30::apply_pa30};

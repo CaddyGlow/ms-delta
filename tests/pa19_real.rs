@@ -1,3 +1,5 @@
+#![cfg(feature = "pa19")]
+
 //! Real PA19 patches, gated on `WINDOWS_DELTA_PA19_DIR`.
 //!
 //! The directory holds one subdirectory per case with `patch.pa19` and `new.bin`

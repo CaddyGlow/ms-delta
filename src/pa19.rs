@@ -281,7 +281,8 @@ fn crc32(data: &[u8]) -> u32 {
 }
 
 /// A byte range of the old file that is zeroed before the old-file CRC test.
-#[derive(Clone, Copy, Debug, Eq, PartialEq, serde::Serialize)]
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Pa19IgnoreRange {
     /// Offset in the old file.
     pub offset: u32,
@@ -290,7 +291,8 @@ pub struct Pa19IgnoreRange {
 }
 
 /// A range preserved across patching: copied out of the old file and pasted into the new file.
-#[derive(Clone, Copy, Debug, Eq, PartialEq, serde::Serialize)]
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Pa19RetainRange {
     /// Offset in the old file.
     pub old_offset: u32,
@@ -302,7 +304,8 @@ pub struct Pa19RetainRange {
 
 /// One interleave group of a source: an independent LZX decode whose history is a slice of the
 /// old file.
-#[derive(Clone, Copy, Debug, Eq, PartialEq, serde::Serialize)]
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Pa19InterleaveGroup {
     /// Offset of the old-file slice.
     pub old_offset: u32,
@@ -313,7 +316,8 @@ pub struct Pa19InterleaveGroup {
 }
 
 /// One old-file alternative carried by a PA19 patch.
-#[derive(Clone, Debug, Eq, PartialEq, serde::Serialize)]
+#[derive(Clone, Debug, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Pa19Source {
     /// Required old file size.
     pub old_size: usize,
@@ -335,7 +339,8 @@ pub struct Pa19Source {
 }
 
 /// Metadata carried by a PA19 header. Inspection does not apply a patch.
-#[derive(Clone, Debug, Eq, PartialEq, serde::Serialize)]
+#[derive(Clone, Debug, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Pa19Info {
     /// Decoded header flags (stored flags XOR 0x800000).
     pub flags: u32,

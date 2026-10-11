@@ -1,3 +1,5 @@
+#![cfg(feature = "pa19")]
+
 //! PA19 creation: patches made by `create_pa19`/`create_pa19_with` must be accepted by
 //! `apply_pa19`. The real `mspatcha.dll` also applied 30 such patches on a Windows guest (see
 //! the module documentation of `pa19`).

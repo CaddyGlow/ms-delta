@@ -1,3 +1,5 @@
+#![cfg(feature = "pa19")]
+
 //! Synthetic PA19 tests. They build containers around MS-PATCH LZX streams made by
 //! `create_lzxd`; they need no Microsoft files and do not model PE transforms.
 

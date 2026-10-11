@@ -21,19 +21,23 @@ mod e8;
 mod encode;
 mod ia64;
 mod lzms_frame;
+#[cfg(feature = "pa31")]
 mod pa31;
 mod pe;
 mod pe_encode;
+#[cfg(feature = "pa31")]
 mod reverse;
 mod rift;
 mod rift_encode;
 
 pub use encode::create_pa30;
+#[cfg(feature = "pa31")]
 pub use pa31::{Pa31Info, apply_pa31, create_pa31, create_pa31_pe, inspect_pa31};
 pub use pe_encode::create_pa30_pe;
 
 /// Metadata carried by a PA30 outer header. Inspection does not apply a patch.
-#[derive(Clone, Debug, Eq, PartialEq, serde::Serialize)]
+#[derive(Clone, Debug, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Pa30Info {
     /// Windows FILETIME timestamp of the target.
     pub target_file_time: u64,
@@ -1285,7 +1289,14 @@ mod tests {
                 }
             }
             let output = if delta.starts_with(b"PA31") {
-                apply_pa31(&[], &delta, &Limits::default()).unwrap()
+                #[cfg(feature = "pa31")]
+                {
+                    apply_pa31(&[], &delta, &Limits::default()).unwrap()
+                }
+                #[cfg(not(feature = "pa31"))]
+                {
+                    continue;
+                }
             } else {
                 apply_pa30(&[], &delta, &Limits::default()).unwrap()
             };
