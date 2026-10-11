@@ -1,0 +1,104 @@
+﻿[
+    {
+        "type_set":  3,
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:13\"",
+        "platform":  "anycpu",
+        "success":  false,
+        "reset_mask":  57854
+    },
+    {
+        "type_set":  17,
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:13\"",
+        "platform":  "anycpu",
+        "success":  false,
+        "reset_mask":  6300158
+    },
+    {
+        "reset_mask":  57854,
+        "native_matches":  true,
+        "delta_size":  535,
+        "success":  true,
+        "flags":  0,
+        "platform":  "anycpu",
+        "type_set":  15,
+        "file_type":  2
+    },
+    {
+        "reset_mask":  6300158,
+        "native_matches":  true,
+        "delta_size":  537,
+        "success":  true,
+        "flags":  0,
+        "platform":  "anycpu",
+        "type_set":  245,
+        "file_type":  16
+    },
+    {
+        "type_set":  3,
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:13\"",
+        "platform":  "x86",
+        "success":  false,
+        "reset_mask":  57854
+    },
+    {
+        "type_set":  17,
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:13\"",
+        "platform":  "x86",
+        "success":  false,
+        "reset_mask":  6300158
+    },
+    {
+        "reset_mask":  57854,
+        "native_matches":  true,
+        "delta_size":  535,
+        "success":  true,
+        "flags":  0,
+        "platform":  "x86",
+        "type_set":  15,
+        "file_type":  2
+    },
+    {
+        "reset_mask":  6300158,
+        "native_matches":  true,
+        "delta_size":  537,
+        "success":  true,
+        "flags":  0,
+        "platform":  "x86",
+        "type_set":  245,
+        "file_type":  16
+    },
+    {
+        "type_set":  3,
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:13\"",
+        "platform":  "x64",
+        "success":  false,
+        "reset_mask":  58942
+    },
+    {
+        "type_set":  17,
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:13\"",
+        "platform":  "x64",
+        "success":  false,
+        "reset_mask":  6301246
+    },
+    {
+        "reset_mask":  58942,
+        "native_matches":  true,
+        "delta_size":  526,
+        "success":  true,
+        "flags":  0,
+        "platform":  "x64",
+        "type_set":  15,
+        "file_type":  8
+    },
+    {
+        "reset_mask":  6301246,
+        "native_matches":  true,
+        "delta_size":  528,
+        "success":  true,
+        "flags":  0,
+        "platform":  "x64",
+        "type_set":  245,
+        "file_type":  32
+    }
+]

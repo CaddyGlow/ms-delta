@@ -1,0 +1,1400 @@
+{
+  "attributes/anycpu/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1456
+      },
+      "#Strings": {
+        "offset": 1564,
+        "size": 964
+      },
+      "#US": {
+        "offset": 2528,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2576,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2592,
+        "size": 604
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 21,
+      "2": 8,
+      "4": 11,
+      "6": 31,
+      "8": 26,
+      "9": 1,
+      "10": 22,
+      "11": 2,
+      "12": 12,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 3,
+      "23": 3,
+      "24": 10,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "attributes/anycpu/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1456
+      },
+      "#Strings": {
+        "offset": 1564,
+        "size": 964
+      },
+      "#US": {
+        "offset": 2528,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2576,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2592,
+        "size": 604
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 21,
+      "2": 8,
+      "4": 11,
+      "6": 31,
+      "8": 26,
+      "9": 1,
+      "10": 22,
+      "11": 2,
+      "12": 12,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 3,
+      "23": 3,
+      "24": 10,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "attributes/x64/source.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1456
+      },
+      "#Strings": {
+        "offset": 1564,
+        "size": 964
+      },
+      "#US": {
+        "offset": 2528,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2576,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2592,
+        "size": 604
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 21,
+      "2": 8,
+      "4": 11,
+      "6": 31,
+      "8": 26,
+      "9": 1,
+      "10": 22,
+      "11": 2,
+      "12": 12,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 3,
+      "23": 3,
+      "24": 10,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "attributes/x64/target.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1456
+      },
+      "#Strings": {
+        "offset": 1564,
+        "size": 964
+      },
+      "#US": {
+        "offset": 2528,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2576,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2592,
+        "size": 604
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 21,
+      "2": 8,
+      "4": 11,
+      "6": 31,
+      "8": 26,
+      "9": 1,
+      "10": 22,
+      "11": 2,
+      "12": 12,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 3,
+      "23": 3,
+      "24": 10,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "attributes/x86/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1456
+      },
+      "#Strings": {
+        "offset": 1564,
+        "size": 964
+      },
+      "#US": {
+        "offset": 2528,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2576,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2592,
+        "size": 604
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 21,
+      "2": 8,
+      "4": 11,
+      "6": 31,
+      "8": 26,
+      "9": 1,
+      "10": 22,
+      "11": 2,
+      "12": 12,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 3,
+      "23": 3,
+      "24": 10,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "attributes/x86/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1456
+      },
+      "#Strings": {
+        "offset": 1564,
+        "size": 964
+      },
+      "#US": {
+        "offset": 2528,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2576,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2592,
+        "size": 604
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 21,
+      "2": 8,
+      "4": 11,
+      "6": 31,
+      "8": 26,
+      "9": 1,
+      "10": 22,
+      "11": 2,
+      "12": 12,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 3,
+      "23": 3,
+      "24": 10,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "basic/anycpu/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 344
+      },
+      "#Strings": {
+        "offset": 452,
+        "size": 232
+      },
+      "#US": {
+        "offset": 684,
+        "size": 56
+      },
+      "#GUID": {
+        "offset": 740,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 756,
+        "size": 92
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 4,
+      "2": 3,
+      "6": 7,
+      "8": 4,
+      "10": 4,
+      "12": 2,
+      "17": 1,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "basic/anycpu/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 344
+      },
+      "#Strings": {
+        "offset": 452,
+        "size": 232
+      },
+      "#US": {
+        "offset": 684,
+        "size": 56
+      },
+      "#GUID": {
+        "offset": 740,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 756,
+        "size": 92
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 4,
+      "2": 3,
+      "6": 7,
+      "8": 4,
+      "10": 4,
+      "12": 2,
+      "17": 1,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "basic/x64/source.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 344
+      },
+      "#Strings": {
+        "offset": 452,
+        "size": 232
+      },
+      "#US": {
+        "offset": 684,
+        "size": 56
+      },
+      "#GUID": {
+        "offset": 740,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 756,
+        "size": 92
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 4,
+      "2": 3,
+      "6": 7,
+      "8": 4,
+      "10": 4,
+      "12": 2,
+      "17": 1,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "basic/x64/target.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 344
+      },
+      "#Strings": {
+        "offset": 452,
+        "size": 232
+      },
+      "#US": {
+        "offset": 684,
+        "size": 56
+      },
+      "#GUID": {
+        "offset": 740,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 756,
+        "size": 92
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 4,
+      "2": 3,
+      "6": 7,
+      "8": 4,
+      "10": 4,
+      "12": 2,
+      "17": 1,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "basic/x86/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 344
+      },
+      "#Strings": {
+        "offset": 452,
+        "size": 232
+      },
+      "#US": {
+        "offset": 684,
+        "size": 56
+      },
+      "#GUID": {
+        "offset": 740,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 756,
+        "size": 92
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 4,
+      "2": 3,
+      "6": 7,
+      "8": 4,
+      "10": 4,
+      "12": 2,
+      "17": 1,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "basic/x86/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 344
+      },
+      "#Strings": {
+        "offset": 452,
+        "size": 232
+      },
+      "#US": {
+        "offset": 684,
+        "size": 56
+      },
+      "#GUID": {
+        "offset": 740,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 756,
+        "size": 92
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 4,
+      "2": 3,
+      "6": 7,
+      "8": 4,
+      "10": 4,
+      "12": 2,
+      "17": 1,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "rich/anycpu/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 480
+      },
+      "#Strings": {
+        "offset": 588,
+        "size": 304
+      },
+      "#US": {
+        "offset": 892,
+        "size": 72
+      },
+      "#GUID": {
+        "offset": 964,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 980,
+        "size": 128
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 5,
+      "2": 3,
+      "4": 5,
+      "6": 12,
+      "8": 8,
+      "10": 4,
+      "12": 2,
+      "17": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "rich/anycpu/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 480
+      },
+      "#Strings": {
+        "offset": 588,
+        "size": 304
+      },
+      "#US": {
+        "offset": 892,
+        "size": 72
+      },
+      "#GUID": {
+        "offset": 964,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 980,
+        "size": 128
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 5,
+      "2": 3,
+      "4": 5,
+      "6": 12,
+      "8": 8,
+      "10": 4,
+      "12": 2,
+      "17": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "rich/x64/source.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 480
+      },
+      "#Strings": {
+        "offset": 588,
+        "size": 304
+      },
+      "#US": {
+        "offset": 892,
+        "size": 72
+      },
+      "#GUID": {
+        "offset": 964,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 980,
+        "size": 128
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 5,
+      "2": 3,
+      "4": 5,
+      "6": 12,
+      "8": 8,
+      "10": 4,
+      "12": 2,
+      "17": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "rich/x64/target.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 480
+      },
+      "#Strings": {
+        "offset": 588,
+        "size": 304
+      },
+      "#US": {
+        "offset": 892,
+        "size": 72
+      },
+      "#GUID": {
+        "offset": 964,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 980,
+        "size": 128
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 5,
+      "2": 3,
+      "4": 5,
+      "6": 12,
+      "8": 8,
+      "10": 4,
+      "12": 2,
+      "17": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "rich/x86/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 480
+      },
+      "#Strings": {
+        "offset": 588,
+        "size": 304
+      },
+      "#US": {
+        "offset": 892,
+        "size": 72
+      },
+      "#GUID": {
+        "offset": 964,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 980,
+        "size": 128
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 5,
+      "2": 3,
+      "4": 5,
+      "6": 12,
+      "8": 8,
+      "10": 4,
+      "12": 2,
+      "17": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "rich/x86/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 480
+      },
+      "#Strings": {
+        "offset": 588,
+        "size": 304
+      },
+      "#US": {
+        "offset": 892,
+        "size": 72
+      },
+      "#GUID": {
+        "offset": 964,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 980,
+        "size": 128
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 5,
+      "2": 3,
+      "4": 5,
+      "6": 12,
+      "8": 8,
+      "10": 4,
+      "12": 2,
+      "17": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "signatures/anycpu/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1264
+      },
+      "#Strings": {
+        "offset": 1372,
+        "size": 828
+      },
+      "#US": {
+        "offset": 2200,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2248,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2264,
+        "size": 380
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 17,
+      "2": 7,
+      "4": 8,
+      "6": 28,
+      "8": 23,
+      "9": 1,
+      "10": 20,
+      "11": 2,
+      "12": 5,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 2,
+      "23": 2,
+      "24": 8,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "signatures/anycpu/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1264
+      },
+      "#Strings": {
+        "offset": 1372,
+        "size": 828
+      },
+      "#US": {
+        "offset": 2200,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2248,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2264,
+        "size": 380
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 17,
+      "2": 7,
+      "4": 8,
+      "6": 28,
+      "8": 23,
+      "9": 1,
+      "10": 20,
+      "11": 2,
+      "12": 5,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 2,
+      "23": 2,
+      "24": 8,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "signatures/x64/source.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1264
+      },
+      "#Strings": {
+        "offset": 1372,
+        "size": 828
+      },
+      "#US": {
+        "offset": 2200,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2248,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2264,
+        "size": 380
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 17,
+      "2": 7,
+      "4": 8,
+      "6": 28,
+      "8": 23,
+      "9": 1,
+      "10": 20,
+      "11": 2,
+      "12": 5,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 2,
+      "23": 2,
+      "24": 8,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "signatures/x64/target.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1264
+      },
+      "#Strings": {
+        "offset": 1372,
+        "size": 828
+      },
+      "#US": {
+        "offset": 2200,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2248,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2264,
+        "size": 380
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 17,
+      "2": 7,
+      "4": 8,
+      "6": 28,
+      "8": 23,
+      "9": 1,
+      "10": 20,
+      "11": 2,
+      "12": 5,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 2,
+      "23": 2,
+      "24": 8,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "signatures/x86/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1264
+      },
+      "#Strings": {
+        "offset": 1372,
+        "size": 828
+      },
+      "#US": {
+        "offset": 2200,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2248,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2264,
+        "size": 380
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 17,
+      "2": 7,
+      "4": 8,
+      "6": 28,
+      "8": 23,
+      "9": 1,
+      "10": 20,
+      "11": 2,
+      "12": 5,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 2,
+      "23": 2,
+      "24": 8,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "signatures/x86/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 1264
+      },
+      "#Strings": {
+        "offset": 1372,
+        "size": 828
+      },
+      "#US": {
+        "offset": 2200,
+        "size": 48
+      },
+      "#GUID": {
+        "offset": 2248,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 2264,
+        "size": 380
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 17,
+      "2": 7,
+      "4": 8,
+      "6": 28,
+      "8": 23,
+      "9": 1,
+      "10": 20,
+      "11": 2,
+      "12": 5,
+      "17": 6,
+      "18": 2,
+      "20": 2,
+      "21": 2,
+      "23": 2,
+      "24": 8,
+      "27": 6,
+      "32": 1,
+      "35": 1,
+      "42": 3,
+      "43": 3,
+      "44": 1
+    }
+  },
+  "wide/anycpu/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 6472
+      },
+      "#Strings": {
+        "offset": 6580,
+        "size": 46228
+      },
+      "#US": {
+        "offset": 52808,
+        "size": 8
+      },
+      "#GUID": {
+        "offset": 52816,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 52832,
+        "size": 64
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 3,
+      "2": 151,
+      "6": 300,
+      "10": 3,
+      "12": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "wide/anycpu/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 12704
+      },
+      "#Strings": {
+        "offset": 12812,
+        "size": 76928
+      },
+      "#US": {
+        "offset": 89740,
+        "size": 8
+      },
+      "#GUID": {
+        "offset": 89748,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 89764,
+        "size": 64
+      }
+    },
+    "heap_width_flags": 1,
+    "string_index_bytes": 4,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 3,
+      "2": 251,
+      "6": 500,
+      "10": 3,
+      "12": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "wide/x64/source.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 6472
+      },
+      "#Strings": {
+        "offset": 6580,
+        "size": 46228
+      },
+      "#US": {
+        "offset": 52808,
+        "size": 8
+      },
+      "#GUID": {
+        "offset": 52816,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 52832,
+        "size": 64
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 3,
+      "2": 151,
+      "6": 300,
+      "10": 3,
+      "12": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "wide/x64/target.dll": {
+    "machine": 34404,
+    "optional_header_magic": 523,
+    "clr_flags": 1,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 12704
+      },
+      "#Strings": {
+        "offset": 12812,
+        "size": 76928
+      },
+      "#US": {
+        "offset": 89740,
+        "size": 8
+      },
+      "#GUID": {
+        "offset": 89748,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 89764,
+        "size": 64
+      }
+    },
+    "heap_width_flags": 1,
+    "string_index_bytes": 4,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 3,
+      "2": 251,
+      "6": 500,
+      "10": 3,
+      "12": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "wide/x86/source.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 6472
+      },
+      "#Strings": {
+        "offset": 6580,
+        "size": 46228
+      },
+      "#US": {
+        "offset": 52808,
+        "size": 8
+      },
+      "#GUID": {
+        "offset": 52816,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 52832,
+        "size": 64
+      }
+    },
+    "heap_width_flags": 0,
+    "string_index_bytes": 2,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 3,
+      "2": 151,
+      "6": 300,
+      "10": 3,
+      "12": 2,
+      "32": 1,
+      "35": 1
+    }
+  },
+  "wide/x86/target.dll": {
+    "machine": 332,
+    "optional_header_magic": 267,
+    "clr_flags": 3,
+    "streams": {
+      "#~": {
+        "offset": 108,
+        "size": 12704
+      },
+      "#Strings": {
+        "offset": 12812,
+        "size": 76928
+      },
+      "#US": {
+        "offset": 89740,
+        "size": 8
+      },
+      "#GUID": {
+        "offset": 89748,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 89764,
+        "size": 64
+      }
+    },
+    "heap_width_flags": 1,
+    "string_index_bytes": 4,
+    "blob_index_bytes": 2,
+    "table_rows": {
+      "0": 1,
+      "1": 3,
+      "2": 251,
+      "6": 500,
+      "10": 3,
+      "12": 2,
+      "32": 1,
+      "35": 1
+    }
+  }
+}

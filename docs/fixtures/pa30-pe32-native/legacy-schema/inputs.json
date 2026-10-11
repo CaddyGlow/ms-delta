@@ -1,0 +1,24 @@
+{
+  "source": {
+    "generic_rows": 3,
+    "constraint_typedef_rid": 6,
+    "constraint_coded_value": 24,
+    "metadata_rva": 32768,
+    "metadata_size": 2652,
+    "tables_size": 1272,
+    "input_sha256": "ac8f4ef1bac5906cbff2d2e972db65f1405365b440cdb0daac24aaaeb5f208d2",
+    "output_sha256": "48e883f0f7a6a504473aa0c1a3a6d57e531c511954ce1f93e31e326658e88e45",
+    "output_size": 9216
+  },
+  "target": {
+    "generic_rows": 3,
+    "constraint_typedef_rid": 2,
+    "constraint_coded_value": 8,
+    "metadata_rva": 32768,
+    "metadata_size": 2652,
+    "tables_size": 1272,
+    "input_sha256": "3e9606599a86f3bfd38af1b165a3117bd188468b040d0e491eab52026fdad214",
+    "output_sha256": "ca5ae35e9696b1173e67c5255534a59a6bfaab46aaa69df6f49bb29071e8a624",
+    "output_size": 9216
+  }
+}

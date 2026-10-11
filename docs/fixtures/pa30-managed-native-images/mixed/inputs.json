@@ -1,0 +1,40 @@
+{
+  "source": {
+    "size": 2048,
+    "sha256": "64e991675f2c32459119009b6dbc07fee218872062d9a7dc074daf3fc12c8535",
+    "clr_flags": 0,
+    "methods": [
+      {
+        "name": "ManagedAdd",
+        "rva": 8288,
+        "impl_flags": 0,
+        "bytes": "1330020004"
+      },
+      {
+        "name": "NativeOp",
+        "rva": 8305,
+        "impl_flags": 5,
+        "bytes": "8bc103c2c3"
+      }
+    ]
+  },
+  "target": {
+    "size": 2048,
+    "sha256": "cee2cb43404fb9f43a18f893e2ab40b7954c9ff49a88bf388078edf24adfee87",
+    "clr_flags": 0,
+    "methods": [
+      {
+        "name": "ManagedAdd",
+        "rva": 8288,
+        "impl_flags": 0,
+        "bytes": "1330020004"
+      },
+      {
+        "name": "NativeOp",
+        "rva": 8305,
+        "impl_flags": 5,
+        "bytes": "8bc12bc2c3"
+      }
+    ]
+  }
+}

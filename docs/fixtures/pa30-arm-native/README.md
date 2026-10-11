@@ -1,0 +1,7 @@
+# Native ARM and ARM64 PE transform known answers
+
+Each architecture has 12 successful native forward/reverse flag-isolated deltas, including zero flags, relocations, disassembly, pdata, both architecture transforms and the supported full mask. The original C input contains exported calls, a function pointer requiring base relocation, stack/unwind metadata and data references. The target changes the base, adds a leading function and an 8,192-byte inline code gap, shifting section RVA geometry. Inputs are never executed. Native selected graph is 64 for Thumb ARM and 128 for ARM64, with file-type set 245. Native Create and Apply reproduced all 24 exact targets.
+
+`build.sh`, `tiny.c`, input hashes and section geometry preserve original provenance. Host tools were clang-cl 21.1.8 and lld-link 21.1.8. These build scripts overwrite only generated files in their fixture directory; reproduce in a copy. Native `generate.ps1` calls the public CreateDeltaB/ApplyDeltaB/GetDeltaInfoB API using the pinned UpdateCompression.dll from the PA31 native fixture provenance, SHA-256 2a12118232d0faab12bc8c768391ebd75c9160674a68c7cf8ac4bb24bdd2eefa, in the isolated Windows 10 guest with networking disabled. Target hashes use SHA-256 and target FILETIME 132537600000000000. Native execution and manifests are retained per architecture. Microsoft binaries remain cache-only.
+
+Each ARM architecture also has 12 PA31 controls under its `pa31` directory, for 24 further native exact successes. IA64 controls and version-specific behavior are documented in its own directory.

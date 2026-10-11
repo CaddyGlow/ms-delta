@@ -1,0 +1,32 @@
+﻿[
+    {
+        "size":  5632,
+        "name":  "attributes-all-nohash",
+        "success":  true
+    },
+    {
+        "size":  5632,
+        "name":  "attributes-nohash",
+        "success":  true
+    },
+    {
+        "size":  5632,
+        "name":  "attributes-table2-nohash",
+        "success":  true
+    },
+    {
+        "size":  5120,
+        "name":  "signatures-all-nohash",
+        "success":  true
+    },
+    {
+        "size":  5120,
+        "name":  "signatures-nohash",
+        "success":  true
+    },
+    {
+        "size":  5120,
+        "name":  "signatures-table2-nohash",
+        "success":  true
+    }
+]

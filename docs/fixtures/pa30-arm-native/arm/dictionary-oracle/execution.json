@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "Ww0KICAgIHsNCiAgICAgICAgInNpemUiOiAgMzU4NCwNCiAgICAgICAgInZlcnNpb24iOiAgIk5ldyIsDQogICAgICAgICJzdWNjZXNzIjogIHRydWUNCiAgICB9LA0KICAgIHsNCiAgICAgICAgInNpemUiOiAgMzU4NCwNCiAgICAgICAgInZlcnNpb24iOiAgIk9sZCIsDQogICAgICAgICJzdWNjZXNzIjogIHRydWUNCiAgICB9DQpdDQo=",
+  "stdout": "[\r\n    {\r\n        \"size\":  3584,\r\n        \"version\":  \"New\",\r\n        \"success\":  true\r\n    },\r\n    {\r\n        \"size\":  3584,\r\n        \"version\":  \"Old\",\r\n        \"success\":  true\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

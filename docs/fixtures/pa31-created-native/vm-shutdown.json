@@ -1,0 +1,42 @@
+{
+  "instance": "cbs-psfx-pre-esu-1004",
+  "vm_net": "none",
+  "launcher_session": 41063,
+  "launcher_exit": 0,
+  "native_shutdown_command": [
+    "shutdown.exe",
+    "/s",
+    "/t",
+    "0",
+    "/f"
+  ],
+  "native_shutdown_exit": null,
+  "guest_cleanup_exit": 0,
+  "owned_guest_dirs_removed": [
+    "C:\\pa31-oracle",
+    "C:\\pa30-created-cli-oracle"
+  ],
+  "forced_qemu_stop": false,
+  "controls": {
+    "qga.sock": {
+      "connects": false,
+      "errno": 2,
+      "error": "[Errno 2] No such file or directory"
+    },
+    "qmp.sock": {
+      "connects": false,
+      "errno": 2,
+      "error": "[Errno 2] No such file or directory"
+    }
+  },
+  "oracles": {
+    "/data/cache/UpdateCompression-24h2.dll": {
+      "sha256": "2a12118232d0faab12bc8c768391ebd75c9160674a68c7cf8ac4bb24bdd2eefa",
+      "file_version": "5.00 (WinBuild.160101.0800)"
+    },
+    "/data/cache/pa30-pe-research/msdelta.dll": {
+      "sha256": "098a2a12856c374b418013a1806a9f9f14517c733aed83886ec657c21b57d755",
+      "file_version": "5.00 (WinBuild.160101.0800)"
+    }
+  }
+}

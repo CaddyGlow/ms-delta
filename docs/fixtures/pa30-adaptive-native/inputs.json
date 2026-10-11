@@ -1,0 +1,16 @@
+[
+  {
+    "name": "repeat-4096",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target_sha256": "250277aa72babebc551c55d6f7c2901e865315a00500b1d13da2d61117772292",
+    "source_size": 0,
+    "target_size": 65536
+  },
+  {
+    "name": "repeat-8192",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target_sha256": "0e4f97be66a009e95e8457e4494e40ad8cf06b2a50a30978f289dc38d61a342a",
+    "source_size": 0,
+    "target_size": 65536
+  }
+]

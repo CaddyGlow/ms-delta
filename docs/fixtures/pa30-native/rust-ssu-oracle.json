@@ -1,0 +1,16 @@
+{
+  "description": "Pure Rust CLI reconstruction of SSU5071 RAW PA30 member 0; native ApplyDeltaB and CIX comparison in ssu-oracle.json",
+  "command": "windows-delta apply --format pa30 --delta 0 --output 0.cli-target --expected-sha256 884b19a15a672842b1d6a9abece35fdfb01989122cc7ec2f709d5df964b48f5e",
+  "empty_source": true,
+  "native_library_used_by_rust": false,
+  "files": {
+    "0": {
+      "size": 530301,
+      "sha256": "b345f8c91d35801996c364420de41363924c8fd7894e16e520dfb560af966586"
+    },
+    "0.cli-target": {
+      "size": 1326048,
+      "sha256": "884b19a15a672842b1d6a9abece35fdfb01989122cc7ec2f709d5df964b48f5e"
+    }
+  }
+}

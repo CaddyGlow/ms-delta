@@ -1,0 +1,55 @@
+{
+  "cab_sha256": "c5139cf685638f47613ab89ff4904707e0bc140e14d56c66864771542961dc65",
+  "native_library_used_by_rust": false,
+  "rust_only_basis_chain_test_passed": true,
+  "test": "WINDOWS_DELTA_SSU5071_DIR=/data/cache/pa30-ssu5071-inputs cargo test --locked -p windows-delta --test ssu real_ssu5071_pe_chain -- --ignored",
+  "members": [
+    {
+      "patch_member": "0",
+      "patch_sha256": "b345f8c91d35801996c364420de41363924c8fd7894e16e520dfb560af966586",
+      "basis_member": null,
+      "target_size": 1326048,
+      "target_sha256": "884b19a15a672842b1d6a9abece35fdfb01989122cc7ec2f709d5df964b48f5e",
+      "matches_native_and_cix": true
+    },
+    {
+      "patch_member": "1",
+      "patch_sha256": "7b1d3052a147218ee2f3c528c016d7c5b95c12a3940ca1051b8687f75ecb3bf5",
+      "basis_member": "0",
+      "target_size": 390152,
+      "target_sha256": "c0978b8804f54b937af17309d98b034cad0adf32c689f98cf3b889cd14a5f434",
+      "matches_native_and_cix": true
+    },
+    {
+      "patch_member": "2",
+      "patch_sha256": "3a7a0a3c3ac9f0b4e9a85824366ea0dd9ce7b61aca9ad206443bb254f290061f",
+      "basis_member": "0",
+      "target_size": 2685408,
+      "target_sha256": "15c485eb603a188e99d2f8973b98f1a9064653dac515e7b85d6b21b96fa41a94",
+      "matches_native_and_cix": true
+    },
+    {
+      "patch_member": "10",
+      "patch_sha256": "7bd0b0958a4d8cb2a176e3512c3edbdbf89d0240ff6ccd012a6a04bb01fb2346",
+      "basis_member": "1",
+      "target_size": 33800,
+      "target_sha256": "9653df46b49b8c7a6b6b11be40f57f3b02a34feab56f35746c2d2efa94c12d1c",
+      "matches_native_and_cix": true
+    }
+  ],
+  "binary_payloads_repository": "not included; cache only",
+  "source_sha256": {
+    "crates/windows-delta/src/lib.rs": "f701470ef6c6669d0417659aa8547d6dabbdf87f777b763328b1309dd3ad6c78",
+    "crates/windows-delta/src/pa30.rs": "8a52dbc9905830b7fce79e5fd37842002f1eb7bfcd029a3963814347e76e17e7",
+    "crates/windows-delta/src/pa30/pe.rs": "7ca3531a5c8000518fe2e1d86288ff44230c63fa6a27e6589686056e22561356",
+    "crates/windows-delta/src/pa30/rift.rs": "fbbc67dcd5c7e01ee48e8536e4b92b41b3fb2228916412fcb6a9bfaa1f571264",
+    "crates/windows-delta/src/pa30/e8.rs": "959b0e02378bc1ed5a441f56d8e1146c6cf5bfcfa3297939b3c581d9433f8e0e",
+    "crates/windows-delta/tests/ssu.rs": "12feb741ca0111cdbb672e1ddd16a4cf63f6b4f65a75647c31ec5fb3abeca107"
+  },
+  "validation": {
+    "host_codec_cli_tests_passed": true,
+    "all_targets_all_features_clippy_warnings_denied_passed": true,
+    "windows_x64_crosscompile_passed": true,
+    "rust_binary_executed_in_windows": false
+  }
+}

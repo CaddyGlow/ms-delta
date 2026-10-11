@@ -1,0 +1,58 @@
+﻿[
+    {
+        "flags":  0,
+        "delta_size":  1211,
+        "name":  "signatures-0",
+        "file_type":  16,
+        "success":  true
+    },
+    {
+        "flags":  2097152,
+        "delta_size":  1158,
+        "name":  "signatures-2097152",
+        "file_type":  16,
+        "success":  true
+    },
+    {
+        "flags":  4194304,
+        "delta_size":  776,
+        "name":  "signatures-4194304",
+        "file_type":  16,
+        "success":  true
+    },
+    {
+        "flags":  6291456,
+        "delta_size":  720,
+        "name":  "signatures-6291456",
+        "file_type":  16,
+        "success":  true
+    },
+    {
+        "flags":  0,
+        "delta_size":  1238,
+        "name":  "attributes-0",
+        "file_type":  16,
+        "success":  true
+    },
+    {
+        "flags":  2097152,
+        "delta_size":  1203,
+        "name":  "attributes-2097152",
+        "file_type":  16,
+        "success":  true
+    },
+    {
+        "flags":  4194304,
+        "delta_size":  807,
+        "name":  "attributes-4194304",
+        "file_type":  16,
+        "success":  true
+    },
+    {
+        "flags":  6291456,
+        "delta_size":  767,
+        "name":  "attributes-6291456",
+        "file_type":  16,
+        "success":  true
+    }
+]

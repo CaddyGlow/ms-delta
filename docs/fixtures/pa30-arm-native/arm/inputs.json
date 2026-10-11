@@ -1,0 +1,78 @@
+[
+  {
+    "name": "source",
+    "size": 3584,
+    "sha256": "ee97b954c8d5b45b20c9717d28c3beba0da9efcb8becb92d8b3619a058dd8a51",
+    "machine": 452,
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 66,
+        "rva": 4096,
+        "raw_size": 512
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 112,
+        "rva": 8192,
+        "raw_size": 512
+      },
+      {
+        "name": ".data",
+        "virtual_size": 8,
+        "rva": 12288,
+        "raw_size": 512
+      },
+      {
+        "name": ".pdata",
+        "virtual_size": 16,
+        "rva": 16384,
+        "raw_size": 512
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 24,
+        "rva": 20480,
+        "raw_size": 512
+      }
+    ]
+  },
+  {
+    "name": "target",
+    "size": 11776,
+    "sha256": "a72935ed15493add46377684edec07a7ed61b914a1eee235ec625359a170059a",
+    "machine": 452,
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 8290,
+        "rva": 4096,
+        "raw_size": 8704
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 140,
+        "rva": 16384,
+        "raw_size": 512
+      },
+      {
+        "name": ".data",
+        "virtual_size": 8,
+        "rva": 20480,
+        "raw_size": 512
+      },
+      {
+        "name": ".pdata",
+        "virtual_size": 24,
+        "rva": 24576,
+        "raw_size": 512
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 24,
+        "rva": 28672,
+        "raw_size": 512
+      }
+    ]
+  }
+]

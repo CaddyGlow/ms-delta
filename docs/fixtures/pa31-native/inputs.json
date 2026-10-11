@@ -1,0 +1,58 @@
+[
+  {
+    "name": "empty",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_size": 0,
+    "target_size": 0
+  },
+  {
+    "name": "abc",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target_sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+    "source_size": 0,
+    "target_size": 3
+  },
+  {
+    "name": "all256",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+    "source_size": 0,
+    "target_size": 256
+  },
+  {
+    "name": "random",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target_sha256": "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+    "source_size": 0,
+    "target_size": 8192
+  },
+  {
+    "name": "repetitive",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target_sha256": "a0b2c14a14de31a0abaa9c384450cebe13b498e0d4e956a35e940343fabcd2ea",
+    "source_size": 0,
+    "target_size": 9472
+  },
+  {
+    "name": "identical",
+    "source_sha256": "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+    "target_sha256": "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+    "source_size": 8192,
+    "target_size": 8192
+  },
+  {
+    "name": "changed",
+    "source_sha256": "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+    "target_sha256": "1d588a99514ec207541b8d9628d87b69f333aa21942b07fa88dd43608c76cf14",
+    "source_size": 8192,
+    "target_size": 8192
+  },
+  {
+    "name": "reverse",
+    "source_sha256": "1d588a99514ec207541b8d9628d87b69f333aa21942b07fa88dd43608c76cf14",
+    "target_sha256": "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+    "source_size": 8192,
+    "target_size": 8192
+  }
+]

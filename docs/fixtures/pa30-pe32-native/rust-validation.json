@@ -1,0 +1,86 @@
+{
+  "generated_at_utc": "2026-10-04T10:32:06.899777+00:00",
+  "scope": "I386/AnyCPU and legacy managed PA30 decoding; RAW PA30 and MS-PATCH LZX Delta creation",
+  "new_native_pa30_decode_cases": {
+    "managed": 250,
+    "unmanaged_i386": 28,
+    "five_column_generic_param": 10,
+    "total": 288
+  },
+  "native_apply_verified_created_pa30_cases": 22,
+  "independent_libmspack_created_lzxd_vectors": 36,
+  "independent_libmspack_additional_20mb_reference_case": true,
+  "final_windows_delta_unit_tests": 60,
+  "encoder_tests": {
+    "pa30": 7,
+    "lzxd_regular": 4,
+    "lzxd_independent_ignored_explicitly_run": 1
+  },
+  "checks": [
+    {
+      "command": "cargo test --locked -p windows-delta --all-features -p windows-uup",
+      "result": "passed"
+    },
+    {
+      "command": "cargo test --locked -p windows-delta --all-features --lib --test encode_pa30 --test encode_lzxd --test pe32 --test cli -p windows-uup --test delta_cli",
+      "result": "passed"
+    },
+    {
+      "command": "cargo clippy --all-targets --all-features --locked -- -D warnings",
+      "result": "passed"
+    },
+    {
+      "command": "cargo fmt -p windows-delta -p windows-uup -- --check",
+      "result": "passed"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    },
+    {
+      "command": "cargo xwin build --locked -p windows-delta --features cli --target x86_64-pc-windows-msvc",
+      "result": "passed"
+    },
+    {
+      "command": "WINDOWS_DELTA_SSU5071_DIR=/data/cache/pa30-ssu5071-inputs cargo test --locked -p windows-delta --test ssu real_ssu5071_pe_chain -- --ignored",
+      "result": "passed"
+    },
+    {
+      "command": "LZXD_ORACLE=/tmp/lzxd-oracle/oracle cargo test --locked -p windows-delta --test encode_lzxd independent_libmspack -- --ignored",
+      "result": "passed"
+    }
+  ],
+  "windows_rust_binary_cross_compiled": true,
+  "windows_rust_binary_executed": false,
+  "limitations": [
+    "PA30 creation uses RAW graph, default Huffman trees, SHA-1 and zero FILETIME",
+    "MS-PATCH creation uses fixed verbatim trees; no Intel preprocessing or aligned block generation",
+    "No optimized PE/CLI graph generation, PA19 envelopes, PSFX packaging or servicing claim"
+  ],
+  "sha256": {
+    "crates/windows-delta/src/lib.rs": "cd387b45cb3e2e7443ca2593f4a048a876e01f367eedbe91d3d00cd1f8efc5ef",
+    "crates/windows-delta/src/cli.rs": "7277b298b57c85e0aee45b76a0bf3c5019f220e28682f07939ecabe9518685d4",
+    "crates/windows-delta/src/main.rs": "3da034de2ac5c38f39379df62ecef441158e7f0de7781c76066db8f08a3603e3",
+    "crates/windows-delta/src/pa30.rs": "cb36489b64da660eb40dfb9b7e0136d154575bb75c20333cd62df8c3805900a5",
+    "crates/windows-delta/src/lzxd_encode.rs": "dce4c616def90a0983fd04b95ea7ea9c89e38c8c21351c4164e08e302fb544bc",
+    "crates/windows-delta/src/pa30/pe.rs": "bb7848da3441c638d08bbe3187f1aa4234796e427d2cee8a05714f7f4342c7df",
+    "crates/windows-delta/src/pa30/cli.rs": "124315afb1504dfd43965cb77c99cac3077867889cef2f4d7b11ed6af9c9face",
+    "crates/windows-delta/src/pa30/cli_il.rs": "9c0b42f9f00f71655e6cadb6a7e906a9e9a99d43fdec163e84817b36c7203560",
+    "crates/windows-delta/src/pa30/cli_rift.rs": "1fddc2f1617716c648dc32613dd13986729cd79f38ecc690bc97ec3571e0f25e",
+    "crates/windows-delta/src/pa30/rift.rs": "23000186d6df979bda42cf084f0b534ae170b093748cd60d80bace7411cfcbe0",
+    "crates/windows-delta/src/pa30/encode.rs": "b10e2c729fd430f0a616822d4f58612490cfb01c3242af4c6398db5422be8016",
+    "crates/windows-delta/tests/pe32.rs": "2a185d20e4c362abea3f3ba9a6e7bbb4c657f6ceae9e4f609c0115649151b06d",
+    "crates/windows-delta/tests/encode_pa30.rs": "328471f320eabcff11f952b5d56dc8aa63b222b23c06bc2d08c8989dd2cd6c00",
+    "crates/windows-delta/tests/encode_lzxd.rs": "bf5c031b7733a2da9df620fe1d995920fd955abaae6810695429c55a76db725d",
+    "crates/windows-delta/tests/cli.rs": "854d99846073924d4fab2f097de287c142c044b740e1a2d2e6a01d5ff4e7b62b",
+    "crates/windows-uup/src/main.rs": "2284c61041d03d43e87f723ecc472d34bb109ca75c5ea4e0a45eed47b5f5faa6",
+    "crates/windows-uup/tests/delta_cli.rs": "41a4becaa36c8d44b49bd09281e4df9ac46ac0d28a4ab2f4061500e65f77e630",
+    "crates/windows-delta/examples/create_lzxd_fixtures.rs": "89c41d9754f0f194c9aa1bba812ed2b9d291b6778184b52210d38fff21209042",
+    "docs/fixtures/pa30-pe32-native/manifest.json": "fdccc63a551817ce37d11c39078fd31d065abe40b115c985e2e90fa21f0a33cc",
+    "docs/fixtures/pa30-pe32-native/unmanaged-manifest.json": "5e14f04a92c892756e153afd126dcfa629a25edd59b4e464017d929942c76923",
+    "docs/fixtures/pa30-pe32-native/legacy-schema/manifest.json": "4d16a681be7695f42408a97a7ef5bd9ffe5df511b571b00cc70f7ac9371731dc",
+    "docs/fixtures/pa30-created-native/manifest.json": "4d595f63a31e6cb5fc960569d4e656b38eb9257fd5ee2c5681db3f33232faae4",
+    "docs/fixtures/pa30-created-native/native-results.json": "2d8ad263401d54422527af3409f033e10b28909fbb218e8c0b9d0babcd44a230",
+    "docs/fixtures/lzxd-created-libmspack/oracle-results.json": "30456961e1d2be88026f11f4a8f18062c4a279a7625898ee21efafac8150bdbb"
+  }
+}

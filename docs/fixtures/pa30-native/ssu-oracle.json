@@ -1,0 +1,89 @@
+{
+  "cab_sha256": "c5139cf685638f47613ab89ff4904707e0bc140e14d56c66864771542961dc65",
+  "input_metadata": [
+    {
+      "file_id": "33",
+      "target_name": "amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.5071_none_7e3c4e707c6a2679\\drvstore.dll",
+      "target_size": 1326048,
+      "target_sha256": "884b19a15a672842b1d6a9abece35fdfb01989122cc7ec2f709d5df964b48f5e",
+      "patch_member": "0",
+      "patch_sha256": "b345f8c91d35801996c364420de41363924c8fd7894e16e520dfb560af966586",
+      "patch_size": 530301,
+      "patch_prefix": "50413330009eff4ccd1adb01b07e40000003c17728700050",
+      "basis_id": null
+    },
+    {
+      "file_id": "44",
+      "target_name": "amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.5071_none_7e3c4e707c6a2679\\drupdate.dll",
+      "target_size": 390152,
+      "target_sha256": "c0978b8804f54b937af17309d98b034cad0adf32c689f98cf3b889cd14a5f434",
+      "patch_member": "1",
+      "patch_sha256": "7b1d3052a147218ee2f3c528c016d7c5b95c12a3940ca1051b8687f75ecb3bf5",
+      "patch_size": 91025,
+      "patch_prefix": "504133300063a744cd1adb01b05e10d0c7c40c22d0170e00",
+      "basis_id": "33"
+    },
+    {
+      "file_id": "40",
+      "target_name": "amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.5071_none_7e3c4e707c6a2679\\cbscore.dll",
+      "target_size": 2685408,
+      "target_sha256": "15c485eb603a188e99d2f8973b98f1a9064653dac515e7b85d6b21b96fa41a94",
+      "patch_member": "2",
+      "patch_sha256": "3a7a0a3c3ac9f0b4e9a85824366ea0dd9ce7b61aca9ad206443bb254f290061f",
+      "patch_size": 949933,
+      "patch_prefix": "504133308034984dcd1adb01b05e10d0c7c40c04cf47c101",
+      "basis_id": "33"
+    },
+    {
+      "file_id": "15",
+      "target_name": "amd64_microsoft-windows-s..-installers-onecore_31bf3856ad364e35_10.0.19041.5071_none_60995dbb5a861659\\httpai.dll",
+      "target_size": 33800,
+      "target_sha256": "9653df46b49b8c7a6b6b11be40f57f3b02a34feab56f35746c2d2efa94c12d1c",
+      "patch_member": "10",
+      "patch_sha256": "7bd0b0958a4d8cb2a176e3512c3edbdbf89d0240ff6ccd012a6a04bb01fb2346",
+      "patch_size": 8210,
+      "patch_prefix": "50413330009eff4ccd1adb01b05e10d0c7c40c1108710050",
+      "basis_id": "44"
+    }
+  ],
+  "native_results": [
+    {
+      "flags": 393216,
+      "type": 1,
+      "hash_alg": 32771,
+      "type_set": 245,
+      "sha256": "884b19a15a672842b1d6a9abece35fdfb01989122cc7ec2f709d5df964b48f5e",
+      "member": "0",
+      "size": 1326048
+    },
+    {
+      "flags": 6694462,
+      "type": 32,
+      "hash_alg": 32771,
+      "type_set": 245,
+      "sha256": "c0978b8804f54b937af17309d98b034cad0adf32c689f98cf3b889cd14a5f434",
+      "member": "1",
+      "size": 390152
+    },
+    {
+      "flags": 6694462,
+      "type": 32,
+      "hash_alg": 32771,
+      "type_set": 245,
+      "sha256": "15c485eb603a188e99d2f8973b98f1a9064653dac515e7b85d6b21b96fa41a94",
+      "member": "2",
+      "size": 2685408
+    },
+    {
+      "flags": 6694462,
+      "type": 32,
+      "hash_alg": 32771,
+      "type_set": 245,
+      "sha256": "9653df46b49b8c7a6b6b11be40f57f3b02a34feab56f35746c2d2efa94c12d1c",
+      "member": "10",
+      "size": 33800
+    }
+  ],
+  "native_matches_cix_sha256": true,
+  "binary_payloads_repository": "not included; local cache only"
+}

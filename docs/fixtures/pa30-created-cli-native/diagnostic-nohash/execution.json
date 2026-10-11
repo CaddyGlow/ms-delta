@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "Ww0KICAgIHsNCiAgICAgICAgInNpemUiOiAgNTYzMiwNCiAgICAgICAgIm5hbWUiOiAgImF0dHJpYnV0ZXMtYWxsLW5vaGFzaCIsDQogICAgICAgICJzdWNjZXNzIjogIHRydWUNCiAgICB9LA0KICAgIHsNCiAgICAgICAgInNpemUiOiAgNTYzMiwNCiAgICAgICAgIm5hbWUiOiAgImF0dHJpYnV0ZXMtbm9oYXNoIiwNCiAgICAgICAgInN1Y2Nlc3MiOiAgdHJ1ZQ0KICAgIH0sDQogICAgew0KICAgICAgICAic2l6ZSI6ICA1NjMyLA0KICAgICAgICAibmFtZSI6ICAiYXR0cmlidXRlcy10YWJsZTItbm9oYXNoIiwNCiAgICAgICAgInN1Y2Nlc3MiOiAgdHJ1ZQ0KICAgIH0sDQogICAgew0KICAgICAgICAic2l6ZSI6ICA1MTIwLA0KICAgICAgICAibmFtZSI6ICAic2lnbmF0dXJlcy1hbGwtbm9oYXNoIiwNCiAgICAgICAgInN1Y2Nlc3MiOiAgdHJ1ZQ0KICAgIH0sDQogICAgew0KICAgICAgICAic2l6ZSI6ICA1MTIwLA0KICAgICAgICAibmFtZSI6ICAic2lnbmF0dXJlcy1ub2hhc2giLA0KICAgICAgICAic3VjY2VzcyI6ICB0cnVlDQogICAgfSwNCiAgICB7DQogICAgICAgICJzaXplIjogIDUxMjAsDQogICAgICAgICJuYW1lIjogICJzaWduYXR1cmVzLXRhYmxlMi1ub2hhc2giLA0KICAgICAgICAic3VjY2VzcyI6ICB0cnVlDQogICAgfQ0KXQ0K",
+  "stdout": "[\r\n    {\r\n        \"size\":  5632,\r\n        \"name\":  \"attributes-all-nohash\",\r\n        \"success\":  true\r\n    },\r\n    {\r\n        \"size\":  5632,\r\n        \"name\":  \"attributes-nohash\",\r\n        \"success\":  true\r\n    },\r\n    {\r\n        \"size\":  5632,\r\n        \"name\":  \"attributes-table2-nohash\",\r\n        \"success\":  true\r\n    },\r\n    {\r\n        \"size\":  5120,\r\n        \"name\":  \"signatures-all-nohash\",\r\n        \"success\":  true\r\n    },\r\n    {\r\n        \"size\":  5120,\r\n        \"name\":  \"signatures-nohash\",\r\n        \"success\":  true\r\n    },\r\n    {\r\n        \"size\":  5120,\r\n        \"name\":  \"signatures-table2-nohash\",\r\n        \"success\":  true\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

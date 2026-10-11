@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "ew0KICAgICJ0YXJnZXRfc2l6ZSI6ICAxMCwNCiAgICAibmF0aXZlX21hdGNoZXMiOiAgdHJ1ZSwNCiAgICAidGFyZ2V0X2hleCI6ICAiNGU0ZjRlNGY0ZTRmNGY0ZTRmNGYiLA0KICAgICJ0YXJnZXRfYXNjaWkiOiAgIk5PTk9OT09OT08iDQp9DQo=",
+  "stdout": "{\r\n    \"target_size\":  10,\r\n    \"native_matches\":  true,\r\n    \"target_hex\":  \"4e4f4e4f4e4f4f4e4f4f\",\r\n    \"target_ascii\":  \"NONONOONOO\"\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

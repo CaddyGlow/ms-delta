@@ -1,0 +1,93 @@
+[
+  {
+    "pair": "amd64-header",
+    "files": {
+      "source.exe": {
+        "size": 3584,
+        "sha256": "559b1a6e7aba7871db2021e2c9c68fa9001ed66ba2c7437aa877b84b45b5e157"
+      },
+      "target.exe": {
+        "size": 3584,
+        "sha256": "4bc2d2a1466944fa105bc076a38f10b13c791bea3b0dc57d7dc35fa5643d454b"
+      }
+    }
+  },
+  {
+    "pair": "amd64-pointers",
+    "files": {
+      "source.exe": {
+        "size": 25600,
+        "sha256": "3a72d383ac8af4d3e17dc4b051a28e76b5829aea10553aab631ac99d123d3d33"
+      },
+      "target.exe": {
+        "size": 25600,
+        "sha256": "a5f42d79d398a1180fe168e2f3c9a4bd280a88aecece85fe8c7ecccefa9ee1b6"
+      }
+    }
+  },
+  {
+    "pair": "amd64-shifted",
+    "files": {
+      "source.exe": {
+        "size": 3584,
+        "sha256": "ce48866b65e6a3ec1b378591ffee052eb52b17c2fdbb7ec88240670b82719b8a"
+      },
+      "target.exe": {
+        "size": 3584,
+        "sha256": "74d8f2b869017ff4f9d474acd0c7b4d9dcaac2ef824a413e7c785011af292413"
+      }
+    }
+  },
+  {
+    "pair": "amd64-small",
+    "files": {
+      "source.exe": {
+        "size": 3584,
+        "sha256": "ce48866b65e6a3ec1b378591ffee052eb52b17c2fdbb7ec88240670b82719b8a"
+      },
+      "target.exe": {
+        "size": 3584,
+        "sha256": "e0f9b15175c10b971c197e43b791ee601f381270e4948a3d121389cfb7a9f388"
+      }
+    }
+  },
+  {
+    "pair": "i386-header",
+    "files": {
+      "source.exe": {
+        "size": 3584,
+        "sha256": "09822f219b7da8d4e1f72fa79598bd34696704bb6e98e8ac2b637061deea9ffe"
+      },
+      "target.exe": {
+        "size": 3584,
+        "sha256": "c6c9ddb2a01a6283772c7328646110796001853a90af68d3fef19f54f81a4342"
+      }
+    }
+  },
+  {
+    "pair": "i386-layout",
+    "files": {
+      "source.exe": {
+        "size": 3584,
+        "sha256": "502c31d6011c78b4f8fae1be4a4202e77d25b5da1018dec03e7e58cb22c38cff"
+      },
+      "target.exe": {
+        "size": 8192,
+        "sha256": "a8f6de1fdc29c27700150eeead85b30b8cea81ab4ff6ef79cb94443bd3dc0617"
+      }
+    }
+  },
+  {
+    "pair": "i386-pointers",
+    "files": {
+      "source.exe": {
+        "size": 17408,
+        "sha256": "1fec9799132c6358c5f496ad1ec3f90008b52048774b1d79b332729927282922"
+      },
+      "target.exe": {
+        "size": 17408,
+        "sha256": "330b875590554016ab6f52cdfb04c7fe450827d9ccc4a8866fc66de8312357ce"
+      }
+    }
+  }
+]

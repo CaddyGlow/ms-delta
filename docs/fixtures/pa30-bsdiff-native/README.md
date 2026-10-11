@@ -1,0 +1,5 @@
+# Native PA30 BSDiff/LZMS known answers
+
+All eight original RAW vectors passed native `CreateDeltaB` and exact `ApplyDeltaB` with flags `0x0a000000`, producing PA30 magic. Inputs are the sibling `pa31-native` original empty, literal, all-byte, random, repeated, identical, changed and reverse vectors; manifest paths are relative. Native headers, target hashes and execution proof are retained here. These controls cover the newer source-dependent PA30 BSDiff/LZMS mode, separately from PA31 framing.
+
+The oracle is the pinned Microsoft symbol-server `UpdateCompression.dll` SHA-256 `2a12118232d0faab12bc8c768391ebd75c9160674a68c7cf8ac4bb24bdd2eefa`, key `E896309483000`, file version `5.00 (WinBuild.160101.0800)`, loaded in the disposable Windows 10 build 19045.5073 VM with networking disabled. No Microsoft binary is included. The public native wrapper and reproduction procedure match `pa31-native`; use this tree's `generate.ps1`, source/target files and `inputs.json` from that sibling, and preserve freshly generated proof separately. File-type set/type is 1, target hashes are SHA-256, and target FILETIME is fixed at 132537600000000000.

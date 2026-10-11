@@ -1,0 +1,9 @@
+{
+  "command": "shutdown.exe /s /t 0 /f",
+  "requested_through": "QGA PowerShell guest-exec",
+  "exit": null,
+  "status_collection_error": "ConnectionResetError: [Errno104] Connection reset by peer while polling guest-exec-status",
+  "launcher_exit": 0,
+  "control_sockets_closed": true,
+  "forced_qemu_quit": false
+}

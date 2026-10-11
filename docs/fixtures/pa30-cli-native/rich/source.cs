@@ -1,0 +1,32 @@
+namespace OriginalDeltaFixture {
+    public class Alpha {
+        public int Value;
+        public string Tag;
+        public static int Counter = 17;
+        public static Alpha Make(int value) { Alpha a = new Alpha(); a.Value = value; a.Tag = "created"; return a; }
+        public static int Inspect(object value) { if (value is Alpha) return ((Alpha)value).Value; return -1; }
+        public static object Box(int value) { return value; }
+        public static int Unbox(object value) { return (int)value; }
+        public static int Add(int value) { Counter += value; return Counter + 17; }
+        public static string Label() { return "source alpha"; }
+        public static int Mix(int value) {
+            int sum = 0;
+            for (int i = 0; i < 7; i++) {
+                switch ((value + i) % 5) {
+                    case 0: sum += 11; break;
+                    case 1: sum -= 7; break;
+                    case 2: sum ^= value; break;
+                    case 3: sum += Add(i); break;
+                    default: sum += i * 3; break;
+                }
+            }
+            return sum;
+        }
+    }
+    public class Beta {
+        public long Wide;
+        public object Reference;
+        public static string Echo(string value) { return "source beta:" + value; }
+        public static long Combine(long value) { return value ^ 0x100000001L; }
+    }
+}

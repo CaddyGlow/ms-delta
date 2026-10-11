@@ -1,0 +1,1 @@
+public static class OriginalReady { public static int Sum(int a, int b) => a + b + 7; public static string Label() => "updated ready to run target"; }

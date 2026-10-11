@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "ew0KICAgICJjYWxscyI6ICAyOCwNCiAgICAic3VjY2VzcyI6ICAyOA0KfQ0K",
+  "stdout": "{\r\n    \"calls\":  28,\r\n    \"success\":  28\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

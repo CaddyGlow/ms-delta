@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "[\r\n    {\r\n        \"flags\":  393216,\r\n        \"type\":  1,\r\n        \"hash_alg\":  32771,\r\n        \"type_set\":  245,\r\n        \"sha256\":  \"884b19a15a672842b1d6a9abece35fdfb01989122cc7ec2f709d5df964b48f5e\",\r\n        \"member\":  \"0\",\r\n        \"size\":  1326048\r\n    },\r\n    {\r\n        \"flags\":  6694462,\r\n        \"type\":  32,\r\n        \"hash_alg\":  32771,\r\n        \"type_set\":  245,\r\n        \"sha256\":  \"c0978b8804f54b937af17309d98b034cad0adf32c689f98cf3b889cd14a5f434\",\r\n        \"member\":  \"1\",\r\n        \"size\":  390152\r\n    },\r\n    {\r\n        \"flags\":  6694462,\r\n        \"type\":  32,\r\n        \"hash_alg\":  32771,\r\n        \"type_set\":  245,\r\n        \"sha256\":  \"15c485eb603a188e99d2f8973b98f1a9064653dac515e7b85d6b21b96fa41a94\",\r\n        \"member\":  \"2\",\r\n        \"size\":  2685408\r\n    },\r\n    {\r\n        \"flags\":  6694462,\r\n        \"type\":  32,\r\n        \"hash_alg\":  32771,\r\n        \"type_set\":  245,\r\n        \"sha256\":  \"9653df46b49b8c7a6b6b11be40f57f3b02a34feab56f35746c2d2efa94c12d1c\",\r\n        \"member\":  \"10\",\r\n        \"size\":  33800\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

@@ -1,0 +1,88 @@
+{
+  "source": {
+    "size": 3584,
+    "sha256": "502c31d6011c78b4f8fae1be4a4202e77d25b5da1018dec03e7e58cb22c38cff",
+    "image_base": 4194304,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "virtual_size": 624,
+        "raw_size": 1024,
+        "raw_offset": 1024,
+        "flags": 1610612768
+      },
+      {
+        "name": ".rdata",
+        "rva": 8192,
+        "virtual_size": 283,
+        "raw_size": 512,
+        "raw_offset": 2048,
+        "flags": 1073741888
+      },
+      {
+        "name": ".data",
+        "rva": 12288,
+        "virtual_size": 8,
+        "raw_size": 512,
+        "raw_offset": 2560,
+        "flags": 3221225536
+      },
+      {
+        "name": ".reloc",
+        "rva": 16384,
+        "virtual_size": 40,
+        "raw_size": 512,
+        "raw_offset": 3072,
+        "flags": 1107296320
+      }
+    ],
+    "load_config_va": 4202504,
+    "lock_prefix_table_va": 4202496,
+    "lock_prefix_va": 4198576,
+    "listed_lock_byte": 144
+  },
+  "target": {
+    "size": 8192,
+    "sha256": "a8f6de1fdc29c27700150eeead85b30b8cea81ab4ff6ef79cb94443bd3dc0617",
+    "image_base": 5242880,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "virtual_size": 5184,
+        "raw_size": 5632,
+        "raw_offset": 1024,
+        "flags": 1610612768
+      },
+      {
+        "name": ".rdata",
+        "rva": 12288,
+        "virtual_size": 315,
+        "raw_size": 512,
+        "raw_offset": 6656,
+        "flags": 1073741888
+      },
+      {
+        "name": ".data",
+        "rva": 16384,
+        "virtual_size": 8,
+        "raw_size": 512,
+        "raw_offset": 7168,
+        "flags": 3221225536
+      },
+      {
+        "name": ".reloc",
+        "rva": 20480,
+        "virtual_size": 40,
+        "raw_size": 512,
+        "raw_offset": 7680,
+        "flags": 1107296320
+      }
+    ],
+    "load_config_va": 5255176,
+    "lock_prefix_table_va": 5255168,
+    "lock_prefix_va": 5251712,
+    "listed_lock_byte": 240
+  }
+}

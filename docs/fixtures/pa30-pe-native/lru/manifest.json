@@ -1,0 +1,14 @@
+{
+  "source": {
+    "size": 16,
+    "sha256": "e7e8b89c2721d290cc5f55425491ecd6831355e91063f20b39c22f9ec6a71f91"
+  },
+  "delta": {
+    "size": 44,
+    "sha256": "583d645e9ad708fc2e80af8e310e1d47f846caedbb0402a08eb1a654793a93e5"
+  },
+  "target": {
+    "size": 10,
+    "sha256": "0685eb648c6971a8914010c4d423941060b24f2fb256ab86dff5e27086517a3d"
+  }
+}

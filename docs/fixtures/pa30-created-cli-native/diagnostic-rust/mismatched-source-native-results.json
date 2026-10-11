@@ -1,0 +1,188 @@
+﻿[
+    {
+        "native_file_time":  0,
+        "native_target_sha256":  "94e4efe177a2adb26ed2412683e6d30d6293eec9b743e5abb86333c46b5555fa",
+        "native_target_size":  6144,
+        "native_target_matches":  true,
+        "native_file_type_set":  245,
+        "native_target_hash_algorithm":  32772,
+        "success":  true,
+        "name":  "flags-attributes-0",
+        "native_file_type":  16,
+        "native_target_hash":  "e77189d0485207f096f607f3002d576d1af71fa0",
+        "source_sha256_after":  "176b725cbe446ee6cae9a2d2ff48a2dbb103c1bb9acc09296dfb1b1a0a6b8b7c",
+        "native_flags":  0
+    },
+    {
+        "native_file_time":  0,
+        "native_target_sha256":  "94e4efe177a2adb26ed2412683e6d30d6293eec9b743e5abb86333c46b5555fa",
+        "native_target_size":  6144,
+        "native_target_matches":  true,
+        "native_file_type_set":  245,
+        "native_target_hash_algorithm":  32772,
+        "success":  true,
+        "name":  "flags-attributes-200000",
+        "native_file_type":  16,
+        "native_target_hash":  "e77189d0485207f096f607f3002d576d1af71fa0",
+        "source_sha256_after":  "176b725cbe446ee6cae9a2d2ff48a2dbb103c1bb9acc09296dfb1b1a0a6b8b7c",
+        "native_flags":  2097152
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "flags-attributes-400000",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "flags-attributes-600000",
+        "success":  false
+    },
+    {
+        "native_file_time":  0,
+        "native_target_sha256":  "c510066a08aac0413f5c4c955da2e689624b3be72aed75686d87e3b50e17db46",
+        "native_target_size":  5632,
+        "native_target_matches":  true,
+        "native_file_type_set":  245,
+        "native_target_hash_algorithm":  32772,
+        "success":  true,
+        "name":  "flags-signatures-0",
+        "native_file_type":  16,
+        "native_target_hash":  "500f6a64b816216e4ca13555857391a65d177200",
+        "source_sha256_after":  "ccbc86aaa271d8dc0137f42d3889b0155dce82405e820fec6c282ed0a41934f1",
+        "native_flags":  0
+    },
+    {
+        "native_file_time":  0,
+        "native_target_sha256":  "c510066a08aac0413f5c4c955da2e689624b3be72aed75686d87e3b50e17db46",
+        "native_target_size":  5632,
+        "native_target_matches":  true,
+        "native_file_type_set":  245,
+        "native_target_hash_algorithm":  32772,
+        "success":  true,
+        "name":  "flags-signatures-200000",
+        "native_file_type":  16,
+        "native_target_hash":  "500f6a64b816216e4ca13555857391a65d177200",
+        "source_sha256_after":  "ccbc86aaa271d8dc0137f42d3889b0155dce82405e820fec6c282ed0a41934f1",
+        "native_flags":  2097152
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "flags-signatures-400000",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "flags-signatures-600000",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-all",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-blob",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-guid",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-none",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-strings",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-table1",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-table10",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-table2",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-table4",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-table6",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-attributes-us",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-all",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-blob",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-guid",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-none",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-strings",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-table1",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-table10",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-table2",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-table4",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-table6",
+        "success":  false
+    },
+    {
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "name":  "maps-signatures-us",
+        "success":  false
+    }
+]

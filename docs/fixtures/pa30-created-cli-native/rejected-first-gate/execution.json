@@ -1,0 +1,8 @@
+{
+  "exit": 1,
+  "signal": null,
+  "stdout_base64": "ew0KICAgICJmYWlsdXJlIjogIDEyLA0KICAgICJjYXNlcyI6ICAzNiwNCiAgICAic3VjY2VzcyI6ICAyNA0KfQ0K",
+  "stdout": "{\r\n    \"failure\":  12,\r\n    \"cases\":  36,\r\n    \"success\":  24\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "DQpNaWNyb3NvZnQgKFIpIC5ORVQgRnJhbWV3b3JrIElMIEFzc2VtYmxlci4gIFZlcnNpb24gNC44LjQwODQuMA0KQ29weXJpZ2h0IChjKSBNaWNyb3NvZnQgQ29ycG9yYXRpb24uICBBbGwgcmlnaHRzIHJlc2VydmVkLg0KQXNzZW1ibGluZyAnQzpccGEzMS1vcmFjbGVcbWl4ZWQtdGFyZ2V0LmlsJyAgdG8gRExMIC0tPiAnQzpccGEzMS1vcmFjbGVcbWl4ZWQtdGFyZ2V0LmRsbCcNClNvdXJjZSBmaWxlIGlzIEFOU0kNCg0KQXNzZW1ibGVkIG1ldGhvZCBPcmlnaW5hbE1peGVkOjpNYW5hZ2VkQWRkDQpBc3NlbWJsZWQgbWV0aG9kIE9yaWdpbmFsTWl4ZWQ6Ok5hdGl2ZU9wDQpDcmVhdGluZyBQRSBmaWxlDQoNCkVtaXR0aW5nIGNsYXNzZXM6DQpDbGFzcyAxOglPcmlnaW5hbE1peGVkDQoNCkVtaXR0aW5nIGZpZWxkcyBhbmQgbWV0aG9kczoNCkdsb2JhbCAJDQpDbGFzcyAxCU1ldGhvZHM6IDI7CQ0KDQpFbWl0dGluZyBldmVudHMgYW5kIHByb3BlcnRpZXM6DQpHbG9iYWwgCQ0KQ2xhc3MgMQkNCldyaXRpbmcgUEUgZmlsZQ0KT3BlcmF0aW9uIGNvbXBsZXRlZCBzdWNjZXNzZnVsbHkNCg==",
+  "stdout": "\r\nMicrosoft (R) .NET Framework IL Assembler.  Version 4.8.4084.0\r\nCopyright (c) Microsoft Corporation.  All rights reserved.\r\nAssembling 'C:\\pa31-oracle\\mixed-target.il'  to DLL --> 'C:\\pa31-oracle\\mixed-target.dll'\r\nSource file is ANSI\r\n\r\nAssembled method OriginalMixed::ManagedAdd\r\nAssembled method OriginalMixed::NativeOp\r\nCreating PE file\r\n\r\nEmitting classes:\r\nClass 1:\tOriginalMixed\r\n\r\nEmitting fields and methods:\r\nGlobal \t\r\nClass 1\tMethods: 2;\t\r\n\r\nEmitting events and properties:\r\nGlobal \t\r\nClass 1\t\r\nWriting PE file\r\nOperation completed successfully\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

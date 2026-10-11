@@ -1,0 +1,14 @@
+{
+  "source": {
+    "sha256": "323378789ebfaa10889e332f1afb2f4537618d5efe0bc875de72ebe177c2a2d9",
+    "relocation_type": 9,
+    "relocation_entry_offset": 2568,
+    "operand_bundle_offset": 1536
+  },
+  "target": {
+    "sha256": "d4814cb1290efc9be3763c485e9362af9b2eebc7069c249e777f901031efef6a",
+    "relocation_type": 9,
+    "relocation_entry_offset": 2568,
+    "operand_bundle_offset": 1536
+  }
+}

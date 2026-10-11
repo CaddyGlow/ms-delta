@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "Ww0KICAgIHsNCiAgICAgICAgInN1Y2Nlc3MiOiAgdHJ1ZSwNCiAgICAgICAgImRlbHRhX3NpemUiOiAgNDEsDQogICAgICAgICJhbGdvcml0aG0iOiAgMzI3NzENCiAgICB9LA0KICAgIHsNCiAgICAgICAgInN1Y2Nlc3MiOiAgdHJ1ZSwNCiAgICAgICAgImRlbHRhX3NpemUiOiAgNDUsDQogICAgICAgICJhbGdvcml0aG0iOiAgMzI3NzINCiAgICB9LA0KICAgIHsNCiAgICAgICAgInN1Y2Nlc3MiOiAgZmFsc2UsDQogICAgICAgICJlcnJvciI6ICAiQ3JlYXRlRGVsdGFCOjEzIiwNCiAgICAgICAgImFsZ29yaXRobSI6ICAzMjc4MA0KICAgIH0NCl0NCg==",
+  "stdout": "[\r\n    {\r\n        \"success\":  true,\r\n        \"delta_size\":  41,\r\n        \"algorithm\":  32771\r\n    },\r\n    {\r\n        \"success\":  true,\r\n        \"delta_size\":  45,\r\n        \"algorithm\":  32772\r\n    },\r\n    {\r\n        \"success\":  false,\r\n        \"error\":  \"CreateDeltaB:13\",\r\n        \"algorithm\":  32780\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

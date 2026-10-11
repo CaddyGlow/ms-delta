@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "ew0KICAgICJGaWxlVmVyc2lvbiI6ICAiNC44LjQwODQuMCBidWlsdCBieTogTkVUNDhSRUwxIiwNCiAgICAiUHJvZHVjdFZlcnNpb24iOiAgIjQuOC40MDg0LjAiDQp9DQo=",
+  "stdout": "{\r\n    \"FileVersion\":  \"4.8.4084.0 built by: NET48REL1\",\r\n    \"ProductVersion\":  \"4.8.4084.0\"\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

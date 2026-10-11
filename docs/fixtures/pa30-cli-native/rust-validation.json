@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-04",
+  "portable_platform": "Linux x86_64",
+  "native_fixture_cases": 70,
+  "native_fixture_families": [
+    "original",
+    "rich",
+    "signatures",
+    "attributes",
+    "wide"
+  ],
+  "comparison": "Every decoded output equals retained native target byte for byte; embedded target hashes also pass",
+  "validation": {
+    "delta_unit_tests": 50,
+    "managed_integration_tests": 3,
+    "existing_pe_integration_tests": 2,
+    "windows_uup_and_delta_host_suites": true,
+    "ssu5071_rust_basis_chain": true,
+    "workspace_clippy_all_targets_all_features_warnings_denied": true,
+    "delta_rustfmt": true,
+    "windows_x64_cross_compile": true,
+    "rust_binary_executed_on_windows": false
+  },
+  "source_sha256": {
+    "crates/windows-delta/src/pa30.rs": "2fafde17c73f23eeaaaf8400290a242b93b3fa8ad4046b0fbcbada18bf1b7d7f",
+    "crates/windows-delta/src/pa30/cli.rs": "4b3f6b13de244f9f2e177727059920b0ce6395a5b70aa50833edec3bc57b72b3",
+    "crates/windows-delta/src/pa30/cli_il.rs": "9c0b42f9f00f71655e6cadb6a7e906a9e9a99d43fdec163e84817b36c7203560",
+    "crates/windows-delta/src/pa30/cli_rift.rs": "8b2afd94115ef37372223ae4b2c6ecc7650c775aac2515637a7435f31b739a69",
+    "crates/windows-delta/src/pa30/pe.rs": "bf28f02bd839d1a9c50d79ab5450ad9abd957218db1927088958d4c466468a34",
+    "crates/windows-delta/src/pa30/rift.rs": "23000186d6df979bda42cf084f0b534ae170b093748cd60d80bace7411cfcbe0",
+    "crates/windows-delta/tests/managed.rs": "6795cdf62c2415df6bd01a18d6068d454b9654221b42e68175db258f1d635900"
+  }
+}

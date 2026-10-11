@@ -1,0 +1,12 @@
+{
+  "vm_instance": "cbs-psfx-pre-esu-1004",
+  "vm_net": "none",
+  "windows_build": "19045.5073",
+  "msdelta_path": "C:\\Windows\\System32\\msdelta.dll",
+  "msdelta_sha256": "098a2a12856c374b418013a1806a9f9f14517c733aed83886ec657c21b57d755",
+  "msdelta_file_version": "5.00 (WinBuild.160101.0800)",
+  "csc_file_version": "4.8.4084.0",
+  "cases": 14,
+  "native_success": 14,
+  "source_hashes_unchanged": true
+}

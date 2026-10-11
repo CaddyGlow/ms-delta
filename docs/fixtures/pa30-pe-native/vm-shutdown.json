@@ -1,0 +1,22 @@
+{
+  "instance": "cbs-psfx-pre-esu-1004",
+  "utc": "2026-10-04T06:18:09.470118+00:00",
+  "initial_acpi_vm_stop_exit": 1,
+  "initial_acpi_stop_reason": "still running after60seconds",
+  "native_windows_shutdown_exit": 0,
+  "launcher_exit": 0,
+  "qemu_forced_quit": false,
+  "control_socket_checks": {
+    "qga.sock": {
+      "connect_failed": true,
+      "errno": 2,
+      "error": "[Errno 2] No such file or directory"
+    },
+    "qmp.sock": {
+      "connect_failed": true,
+      "errno": 2,
+      "error": "[Errno 2] No such file or directory"
+    }
+  },
+  "state": "Windows native shutdown completed; launcher exited and controls closed"
+}

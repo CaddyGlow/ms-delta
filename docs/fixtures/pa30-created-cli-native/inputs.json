@@ -1,0 +1,272 @@
+[
+  {
+    "pair": "basic/anycpu",
+    "family": "basic",
+    "platform": "anycpu",
+    "files": {
+      "source.dll": {
+        "size": 3584,
+        "sha256": "15d37b7fd40d0817fb76cdd9809a38210d69e6f60bc08855eae732de1a3d7dd9"
+      },
+      "target.dll": {
+        "size": 3584,
+        "sha256": "3b213dda93eb30af43ff013fe1555683a2bdbf10c79ae9b7c67160d046eed205"
+      }
+    }
+  },
+  {
+    "pair": "basic/x86",
+    "family": "basic",
+    "platform": "x86",
+    "files": {
+      "source.dll": {
+        "size": 3584,
+        "sha256": "33d362fc84406e3d7e12696c1f178cb5b12f39ff4f930dc8577d70e4673c4709"
+      },
+      "target.dll": {
+        "size": 3584,
+        "sha256": "f3e3af973d5c0cdc4eccdb438955eab7e2424a9257ebfeaf869a80b0af4a8922"
+      }
+    }
+  },
+  {
+    "pair": "basic/x64",
+    "family": "basic",
+    "platform": "x64",
+    "files": {
+      "source.dll": {
+        "size": 3072,
+        "sha256": "18c7ab5584197e4e237a50e4b270981cf66845758cd8bb9cf08105f74eff365d"
+      },
+      "target.dll": {
+        "size": 3072,
+        "sha256": "723cc3f75ff22ccda6445030a3210ca42c93755e03c388075836d18064740f24"
+      }
+    }
+  },
+  {
+    "pair": "rich/anycpu",
+    "family": "rich",
+    "platform": "anycpu",
+    "files": {
+      "source.dll": {
+        "size": 4096,
+        "sha256": "4c78d04510ca43c3907f7e6c2092889fd5989cbdb29a0544e6f6e43d4b96f9d7"
+      },
+      "target.dll": {
+        "size": 4096,
+        "sha256": "67d67b7f10a31b52b39ca13f1a4f3058fd426e2689467f7c12704e8eab546883"
+      }
+    }
+  },
+  {
+    "pair": "rich/x86",
+    "family": "rich",
+    "platform": "x86",
+    "files": {
+      "source.dll": {
+        "size": 4096,
+        "sha256": "4526927fdfd423516d25fd6c7adad47b0f614ad117ac0b892731a8f1a144ba3a"
+      },
+      "target.dll": {
+        "size": 4096,
+        "sha256": "a2f52b5e9058fee4a7c79c2f38a4ecb7c1d8265b26078eac7a4b813646c9f2f8"
+      }
+    }
+  },
+  {
+    "pair": "rich/x64",
+    "family": "rich",
+    "platform": "x64",
+    "files": {
+      "source.dll": {
+        "size": 3072,
+        "sha256": "d1f69103c2e17d6acc26aed8509217cd683b8e99e4469f88fdabbb9ed8a0c98b"
+      },
+      "target.dll": {
+        "size": 3072,
+        "sha256": "3f05dc7aaf4bb50ed9ee8a18c7aff89b322f4fdcc5ba20f8c4dda76256ed5b19"
+      }
+    }
+  },
+  {
+    "pair": "signatures/anycpu",
+    "family": "signatures",
+    "platform": "anycpu",
+    "files": {
+      "source.dll": {
+        "size": 5632,
+        "sha256": "ccbc86aaa271d8dc0137f42d3889b0155dce82405e820fec6c282ed0a41934f1"
+      },
+      "target.dll": {
+        "size": 5632,
+        "sha256": "c510066a08aac0413f5c4c955da2e689624b3be72aed75686d87e3b50e17db46"
+      }
+    }
+  },
+  {
+    "pair": "signatures/x86",
+    "family": "signatures",
+    "platform": "x86",
+    "files": {
+      "source.dll": {
+        "size": 5632,
+        "sha256": "ac8f4ef1bac5906cbff2d2e972db65f1405365b440cdb0daac24aaaeb5f208d2"
+      },
+      "target.dll": {
+        "size": 5632,
+        "sha256": "3e9606599a86f3bfd38af1b165a3117bd188468b040d0e491eab52026fdad214"
+      }
+    }
+  },
+  {
+    "pair": "signatures/x64",
+    "family": "signatures",
+    "platform": "x64",
+    "files": {
+      "source.dll": {
+        "size": 5120,
+        "sha256": "022f9e22ba1c68dbd24c781fad645c53292031db628c161ea01ccb7c7ada421d"
+      },
+      "target.dll": {
+        "size": 5120,
+        "sha256": "e0cbda5f854a4af805dfb4e1aa28e9fb048db6f74464a696bc7737bfd1639443"
+      }
+    }
+  },
+  {
+    "pair": "attributes/anycpu",
+    "family": "attributes",
+    "platform": "anycpu",
+    "files": {
+      "source.dll": {
+        "size": 6144,
+        "sha256": "176b725cbe446ee6cae9a2d2ff48a2dbb103c1bb9acc09296dfb1b1a0a6b8b7c"
+      },
+      "target.dll": {
+        "size": 6144,
+        "sha256": "94e4efe177a2adb26ed2412683e6d30d6293eec9b743e5abb86333c46b5555fa"
+      }
+    }
+  },
+  {
+    "pair": "attributes/x86",
+    "family": "attributes",
+    "platform": "x86",
+    "files": {
+      "source.dll": {
+        "size": 6144,
+        "sha256": "248eeb7b19a39a3acd9bbc0b1bcfec75a957fbd9a1427c1bded24710092dde7e"
+      },
+      "target.dll": {
+        "size": 6144,
+        "sha256": "a7d26e113ddb7cae19a057308742b967aa7a43d3e7206a1e43a007d1512d434f"
+      }
+    }
+  },
+  {
+    "pair": "attributes/x64",
+    "family": "attributes",
+    "platform": "x64",
+    "files": {
+      "source.dll": {
+        "size": 5632,
+        "sha256": "cc5d6cebde7d960f94960d9a7e0a43c77fac51bfe6d1668984c296b27c31dc57"
+      },
+      "target.dll": {
+        "size": 5632,
+        "sha256": "d6ff7d77c1a5b9022bc3c3ab34fbe9c961e2754213265bc27370b4ae97e905b4"
+      }
+    }
+  },
+  {
+    "pair": "wide/anycpu",
+    "family": "wide",
+    "platform": "anycpu",
+    "files": {
+      "source.dll": {
+        "size": 57344,
+        "sha256": "b7583f15b927927f980fff42cd0522ef7116425ab061aef8e294cc2ab3dd3725"
+      },
+      "target.dll": {
+        "size": 95744,
+        "sha256": "0f1a6a6bbfdece0b9d65bd9166071e68af639c9f6192605610e26c93d9638f7a"
+      }
+    }
+  },
+  {
+    "pair": "wide/x86",
+    "family": "wide",
+    "platform": "x86",
+    "files": {
+      "source.dll": {
+        "size": 57344,
+        "sha256": "1959149a50fd86c5e17bd1ab57e377924a2c7c1a432aad8374b0d0b40f991bdd"
+      },
+      "target.dll": {
+        "size": 95744,
+        "sha256": "2e7ddb8b651ecae13fef65b9fc28bd2908881ab59988c4b0ff8d3b5f6265dd71"
+      }
+    }
+  },
+  {
+    "pair": "wide/x64",
+    "family": "wide",
+    "platform": "x64",
+    "files": {
+      "source.dll": {
+        "size": 56832,
+        "sha256": "ae52f9152895fa8a31a1fb7b6f6410b4c926ab2ff41d83c744acc887ce8b12d6"
+      },
+      "target.dll": {
+        "size": 95232,
+        "sha256": "f1c29e19e97678e1b334ebc0622afcb06152be3a367c146253764f8c9d4bfd83"
+      }
+    }
+  },
+  {
+    "pair": "header/anycpu",
+    "family": "header",
+    "platform": "anycpu",
+    "files": {
+      "source.dll": {
+        "size": 3584,
+        "sha256": "e2f65de59009847cc5796985968fd5daa419a9476cd2aa3f743c91b9c9725a15"
+      },
+      "target.dll": {
+        "size": 3584,
+        "sha256": "39947d5a188b8a73205387c69584c5a4fc2144c7317ff4cb3201f2651f72404e"
+      }
+    }
+  },
+  {
+    "pair": "header/x86",
+    "family": "header",
+    "platform": "x86",
+    "files": {
+      "source.dll": {
+        "size": 3584,
+        "sha256": "d21d799c9785297991b5636bbcf3c8fd83819594efa4a49d3d7ac0b1bd2c7b4b"
+      },
+      "target.dll": {
+        "size": 3584,
+        "sha256": "bd77ec2b3d91020baf62dfc166acfd7a61a3315712d5086d9b10c9ccec979e2e"
+      }
+    }
+  },
+  {
+    "pair": "header/x64",
+    "family": "header",
+    "platform": "x64",
+    "files": {
+      "source.dll": {
+        "size": 3072,
+        "sha256": "d289aa631e7ffb81883d092bf6b3965e93048ef4581615e82a02b0e267d1166f"
+      },
+      "target.dll": {
+        "size": 3072,
+        "sha256": "278406bc4427c8e301c843afdd2a2b5cb5ce2d1364aecc2f4c02085610b7a190"
+      }
+    }
+  }
+]

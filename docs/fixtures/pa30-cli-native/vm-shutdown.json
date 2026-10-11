@@ -1,0 +1,20 @@
+{
+  "instance": "cbs-psfx-pre-esu-1004",
+  "utc": "2026-10-04T09:46:29.290004+00:00",
+  "native_windows_shutdown_exit": 0,
+  "launcher_exit": 0,
+  "controls": {
+    "qga.sock": {
+      "connect_failed": true,
+      "errno": 2,
+      "error": "[Errno 2] No such file or directory"
+    },
+    "qmp.sock": {
+      "connect_failed": true,
+      "errno": 2,
+      "error": "[Errno 2] No such file or directory"
+    }
+  },
+  "forced_qemu_quit": false,
+  "owned_guest_fixture_directories_removed": true
+}

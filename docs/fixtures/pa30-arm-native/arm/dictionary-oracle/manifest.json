@@ -1,0 +1,16 @@
+{
+  "source": "source.exe",
+  "delta": "probe.delta",
+  "target": "native-normalized.bin",
+  "hash_algorithm": 0,
+  "native_success": true,
+  "source_sha256": "ee97b954c8d5b45b20c9717d28c3beba0da9efcb8becb92d8b3619a058dd8a51",
+  "target_sha256": "cc4ebd9e372419dd484b8909b0caaca1d0ec793fc21caa1728bcb85b651e664a",
+  "normalization_flags": 1581118,
+  "rejected_rust_difference_offsets": [
+    1070,
+    1080,
+    3081,
+    3083
+  ]
+}

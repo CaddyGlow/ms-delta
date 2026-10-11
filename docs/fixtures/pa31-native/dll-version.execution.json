@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "ew0KICAgICJGaWxlVmVyc2lvbiI6ICAiNS4wMCAoV2luQnVpbGQuMTYwMTAxLjA4MDApIiwNCiAgICAiUHJvZHVjdFZlcnNpb24iOiAgIjUuMDAiLA0KICAgICJPcmlnaW5hbEZpbGVuYW1lIjogICJVcGRhdGVDb21wcmVzc2lvbi5kbGwiDQp9DQo=",
+  "stdout": "{\r\n    \"FileVersion\":  \"5.00 (WinBuild.160101.0800)\",\r\n    \"ProductVersion\":  \"5.00\",\r\n    \"OriginalFilename\":  \"UpdateCompression.dll\"\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

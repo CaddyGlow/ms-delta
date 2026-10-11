@@ -1,0 +1,16 @@
+﻿[
+    {
+        "source_changed":  true,
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "family":  "signatures",
+        "size":  5632,
+        "success":  false
+    },
+    {
+        "source_changed":  true,
+        "error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:13\"",
+        "family":  "attributes",
+        "size":  6144,
+        "success":  false
+    }
+]

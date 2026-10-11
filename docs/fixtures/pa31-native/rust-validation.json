@@ -1,0 +1,127 @@
+{
+  "recorded_at_utc": "2026-10-04T12:09:44.504189+00:00",
+  "scope": "Portable file reconstruction and native codec oracles; no CBS installation or reconstructed-program execution gate.",
+  "gates": [
+    {
+      "command": "cargo test --locked -p windows-delta --all-features -p windows-uup",
+      "status": "passed"
+    },
+    {
+      "command": "cargo test --locked -p windows-delta --all-features",
+      "status": "passed",
+      "library_tests": 91
+    },
+    {
+      "command": "cargo clippy -p windows-delta -p windows-uup -p ms-compress --all-targets --all-features --locked -- -D warnings",
+      "status": "passed"
+    },
+    {
+      "command": "cargo clippy --all-targets --all-features --locked -- -D warnings",
+      "status": "blocked",
+      "reason": "Concurrent wsus-protocol/server/client edits outside delta implementation: missing modules/macros/imports and lint errors."
+    },
+    {
+      "command": "cargo fmt -p windows-delta -p windows-uup -p ms-compress -- --check",
+      "status": "passed"
+    },
+    {
+      "command": "cargo xwin build --locked -p windows-delta --features cli --target x86_64-pc-windows-msvc",
+      "status": "passed",
+      "scope": "cross compilation, not execution of the Rust Windows binary"
+    },
+    {
+      "command": "WINDOWS_UUP_PSF_26100_DIR=/data/cache/win11-uup-26100.1742 cargo test --locked -p windows-uup --test psf portable_pa31_reconstruction_verifies_all_real_26100_1742_outputs -- --ignored",
+      "status": "passed",
+      "elapsed_seconds": 162.05,
+      "files": 26357,
+      "raw_files": 25735,
+      "pa30_streams": 247,
+      "pa31_streams": 375,
+      "output_bytes": 414035568,
+      "source_and_output_cix_sha256_verified": true
+    },
+    {
+      "command": "WINDOWS_DELTA_SSU5071_DIR=/data/cache/pa30-ssu5071-inputs cargo test --locked -p windows-delta --test ssu real_ssu5071_pe_chain -- --ignored",
+      "status": "passed"
+    }
+  ],
+  "sample": {
+    "filename": "Windows11.0-KB5043080-x64.psf",
+    "sha256": "c346fa2157661721c5308a4035b172bfa576c278dc06f8b78095b504faf86fcb",
+    "cix_sha256": "5965409a6ea8efba189c43ea69038ba212f7137f8c60c54ac99d6061c13ca465"
+  },
+  "native_creation_counts": {
+    "unmanaged_pa30": 14,
+    "managed_pa30": 36,
+    "pa31": 18,
+    "mixed_and_readytorun": 8,
+    "arm_arm64_ia64": 12
+  },
+  "source_and_manifest_sha256": {
+    "crates/ms-compress/src/lib.rs": "87486ba7ae96f5d2c6eb1382f279f46cf1079f18604af5d6bbdc62fe7b5b4d46",
+    "crates/ms-compress/src/xpress.rs": "70b0f153d944fd112181f0e957a800a04cc5ec6f60c4552f73df72082e2cbbdf",
+    "crates/windows-delta/src/cli.rs": "042123794f3e59a990e3511f63bbae4542bb59e19145b790e16121b854a1dfcc",
+    "crates/windows-delta/src/lib.rs": "3fd05914c38b4877879f36494636148ef53cea650e54e9a37ad95315d0b186c3",
+    "crates/windows-delta/src/lzxd_encode.rs": "dce4c616def90a0983fd04b95ea7ea9c89e38c8c21351c4164e08e302fb544bc",
+    "crates/windows-delta/src/main.rs": "af42288e49aa0158537f564ee6c6b39fe28fcfd25ca89f6ebce515887a24e5c4",
+    "crates/windows-delta/src/pa30/arm.rs": "a9ca9710da3af3a2b5971931c8b9cea5f5dabe6ca1dbc682808404151005f85d",
+    "crates/windows-delta/src/pa30/arm64.rs": "be3779454384395ce273cfb1464df4c300e1265d76b42e625ede3aeba982e751",
+    "crates/windows-delta/src/pa30/bsdiff.rs": "4232bc19dba862b846fcb9b76f9feeab27d789741b1688ba34b1b8e6d670dd46",
+    "crates/windows-delta/src/pa30/cli.rs": "9fafbd07f25b381b5fda9858769edda51cf423c202dcc98e474c3c183f2533a7",
+    "crates/windows-delta/src/pa30/cli_encode.rs": "19cf8ef9a3776f0bb6f0450b32ae25797b97d42a488e8cc366dcfe47f377cc47",
+    "crates/windows-delta/src/pa30/cli_il.rs": "9c0b42f9f00f71655e6cadb6a7e906a9e9a99d43fdec163e84817b36c7203560",
+    "crates/windows-delta/src/pa30/cli_rift.rs": "1fddc2f1617716c648dc32613dd13986729cd79f38ecc690bc97ec3571e0f25e",
+    "crates/windows-delta/src/pa30/e8.rs": "959b0e02378bc1ed5a441f56d8e1146c6cf5bfcfa3297939b3c581d9433f8e0e",
+    "crates/windows-delta/src/pa30/encode.rs": "ca727368ee53b2b32db360e9ce9b7eef8d530f2bcfc0f5376597c32f5b88a91e",
+    "crates/windows-delta/src/pa30/ia64.rs": "a462aac5f4ef0a0a813f6e80a0160139b2a90c06aa1a8d10614366c397c5cab3",
+    "crates/windows-delta/src/pa30/lzms_frame.rs": "77087293a6f25d9ab5107438aa35da6c05cf87c1cfcb3f6e852077b6a3433033",
+    "crates/windows-delta/src/pa30/pa31.rs": "89aff60cc4ec23d50a24890454d67282b8b98c8e716133e8b60f1168718762c3",
+    "crates/windows-delta/src/pa30/pe.rs": "b6995feace72d98347645483ceacd906bb9034f7e143237bd3dcee84a9e8c244",
+    "crates/windows-delta/src/pa30/pe_encode.rs": "ea436ea24bb6979f79e557de331f737f72daa8ffc7a1cd7ae54161ef940cc599",
+    "crates/windows-delta/src/pa30/reverse.rs": "d1915c77216fb806b857804418c0034cfac684a83f959c81c715e98c6f23b4d0",
+    "crates/windows-delta/src/pa30/rift.rs": "23000186d6df979bda42cf084f0b534ae170b093748cd60d80bace7411cfcbe0",
+    "crates/windows-delta/src/pa30/rift_encode.rs": "a99eb26cc6133e117587b1f3c022412251adfa8bcb6f7f37b8dbc860ba7b0111",
+    "crates/windows-delta/src/pa30.rs": "4403f19208fba20f56fe05d57672465ed8d6099be863d87d52408b7e227d6b29",
+    "crates/windows-delta/tests/cli.rs": "8d8be4f348fcc31b358b43647cb7da3dc52c5df5aeedef7940ca19ad1d26fcbc",
+    "crates/windows-delta/tests/encode_lzxd.rs": "bf5c031b7733a2da9df620fe1d995920fd955abaae6810695429c55a76db725d",
+    "crates/windows-delta/tests/encode_managed.rs": "3f69a27dc3660641d0f6c77f3ef1afe9277552b924e5630271e0ea688e6b9af8",
+    "crates/windows-delta/tests/encode_pa30.rs": "328471f320eabcff11f952b5d56dc8aa63b222b23c06bc2d08c8989dd2cd6c00",
+    "crates/windows-delta/tests/encode_pe.rs": "b4ac6fc2b4c4d4f73dc9ae73cfdd4395716bb865ea837f243d05b0bd452e7e80",
+    "crates/windows-delta/tests/managed.rs": "6795cdf62c2415df6bd01a18d6068d454b9654221b42e68175db258f1d635900",
+    "crates/windows-delta/tests/modern_paths.rs": "95bdbb1866d10208a8250657ed816cd402ca6841767a0696ff79db17a13ff5ec",
+    "crates/windows-delta/tests/pa31.rs": "2cb880017975f2aa50791443f54c11c23042864b5dd8b1498e5b69266ab5046b",
+    "crates/windows-delta/tests/pe.rs": "1007566a0cdd54fbbeb009db27c5351aa3c0bb575f64f12d0d2912a11727d2eb",
+    "crates/windows-delta/tests/pe32.rs": "2a185d20e4c362abea3f3ba9a6e7bbb4c657f6ceae9e4f609c0115649151b06d",
+    "crates/windows-delta/tests/review.rs": "0107965e6f0425677bdf9d7d40c145b6fcacd7b2f9fbb60a25d07592fcb1ae7c",
+    "crates/windows-delta/tests/ssu.rs": "12feb741ca0111cdbb672e1ddd16a4cf63f6b4f65a75647c31ec5fb3abeca107",
+    "crates/windows-uup/src/psf.rs": "aa7cd1e8d48823a380c53b2b0c258ad0b42341e59e554051f4045d6c5ee8711e",
+    "crates/windows-uup/tests/psf.rs": "1ce81a213de3e751d69dee52cc0f3f8e4072b9e86611a1088f258e40b5909a51",
+    "docs/fixtures/pa30-adaptive-native/manifest.json": "9a926fc1b92e2cc002ccd42706ffee7709e7e7952c2e5d436d4ba776ea4a9321",
+    "docs/fixtures/pa30-arm-native/arm/dictionary-oracle/manifest.json": "d9618e2629993e71318119114fc0261aaaa348978d6caae0fe20fdee888f019e",
+    "docs/fixtures/pa30-arm-native/arm/manifest.json": "4076c70d0c6aba14512feda3b3a66298d0de9dce03e6321c4bf7bfd7c9d7fc6b",
+    "docs/fixtures/pa30-arm-native/arm/pa31/manifest.json": "62909bbba0781d9cb9403fd0f0f673749bdc11d6510dbe629579e5be9ad4c989",
+    "docs/fixtures/pa30-arm-native/arm64/manifest.json": "3c19803433b1750a417f38ff2bb35c3ead44124b3a0cab2ebf4c4fad2d7f29ea",
+    "docs/fixtures/pa30-arm-native/arm64/pa31/manifest.json": "7e6d2654b9258b55760c2a0f067fb4203b004ff7f7aeadbe3682329a961d7f09",
+    "docs/fixtures/pa30-arm-native/created/manifest.json": "2ffdb96ecae0c2ba2e26fe955a67d884e23d7b5e89c18e6df0d60a6b69ddd1ff",
+    "docs/fixtures/pa30-arm-native/created/rejected-first-gate/manifest.json": "9d9ee4d6f706112bb0d64877ae97e828202d1a7bc86b442df36563ab7cf5bc0c",
+    "docs/fixtures/pa30-arm-native/ia64/legacy-msdelta/manifest.json": "50485b762e28fdfb0930234080c924077acaeadc8e26a8f14f08fbb22c14467c",
+    "docs/fixtures/pa30-arm-native/ia64/manifest.json": "0e5e2f65ce5161e3861a9cf466b30b1076784b9d8bcff09d83f547ab95c11136",
+    "docs/fixtures/pa30-arm-native/ia64/pa31/manifest.json": "53d7736c6f9ffe53d69f63896c4e880c82506968a851fa151dadc14ddba61073",
+    "docs/fixtures/pa30-arm-native/ia64-imm64/legacy-msdelta/manifest.json": "291b60ec7c7ae83a169e57f33b60f405669561c5b903baea7c2877d76737c605",
+    "docs/fixtures/pa30-arm-native/ia64-imm64/manifest.json": "9f1322b8c40f7304677a2ecd04c4c9c6451cfdb3308332092d3539a3b4ba44fa",
+    "docs/fixtures/pa30-arm-native/normalization/manifest.json": "5816599745a174a23bdfc4a665c32080a2272f5ac72f3140b2d200fdadec9eb9",
+    "docs/fixtures/pa30-bsdiff-native/manifest.json": "af2fcca1629f441ecc213d04e90a25d96f24a9f24d4431762e5f8c40b8fab6d0",
+    "docs/fixtures/pa30-created-cli-native/manifest.json": "765453cafbb91775824a197c7f385848fb34344479af16703e1816bbb22f44e4",
+    "docs/fixtures/pa30-created-cli-native/rejected-first-gate/manifest.json": "761d5201b9916a4f085d9e7901f6abfeb807f92b0fcde3b9835f2ff0060e56c2",
+    "docs/fixtures/pa30-managed-native-images/created/manifest.json": "479daf11c40f4b4b7d18d6a57059ad5043063171f61d8eaf2fd16d8e2c27b4b6",
+    "docs/fixtures/pa30-managed-native-images/mixed/manifest.json": "dc94c9aa46f26da9cd0d09c1a49ba3c4f7392c6d3a064440877d621545842b30",
+    "docs/fixtures/pa30-managed-native-images/readytorun/manifest.json": "176a50bf302393153e0ecdbf01fd6c0771b0cba2e65d25353e3a9ecb0618e62a",
+    "docs/fixtures/pa31-created-native/manifest.json": "10a3d5a2061a4c8acaa48fbf984e2403f6503c8caac52e034589524cc2fb6324",
+    "docs/fixtures/pa31-native/bsdiff/manifest.json": "1c2dcde5f867b4125d178c301f7bedaf72b18749dee2c5c65620c3b64bdcad23",
+    "docs/fixtures/pa31-native/header-variants/manifest.json": "b306cb13691c36785e69d91522bc494f971d31110abfc80c830baf35f395a171",
+    "docs/fixtures/pa31-native/manifest.json": "222b39e9804a49b05cf1783805d45ee58b13b5d293c4ace213db96d1c6123ef6",
+    "docs/fixtures/pa31-native/reverse/manifest.json": "4676c84300fcda98249357f7e81f24f11dc58af0b81559a15a69d1b3d83f297e",
+    "docs/fixtures/pa31-native/reverse-extended/manifest.json": "4f196c4c4914b9035d8b99991450230949a9870aa505859d90bf3f79ddc0a5a4",
+    "docs/fixtures/pa31-native/uncompressed-probes/manifest.json": "3689f178b2aa755d988408fea6ea26f1f8129a634224f1267a1212ff55320893"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "build.sh": {
+    "size": 1464,
+    "sha256": "a335c8b40cafa740a971a67ae22d7fa834f4b3e6487ef726a32ac90b1c577a59"
+  },
+  "tiny.c": {
+    "size": 64056,
+    "sha256": "17c7eacc38db7ce8df9ecbeefdaddafde128fb9c78b62311eddde0622372018c"
+  },
+  "branch.s": {
+    "size": 2821,
+    "sha256": "b1abd2690def23f60a87a624387d26431b98665166172d4d6e31bae0f5ffdc38"
+  },
+  "helper.c": {
+    "size": 78,
+    "sha256": "96251ca446b40d38add5da7147557a3fc57120f72ec561b146b61f8abfc5aa89"
+  },
+  "target.exe": {
+    "size": 8192,
+    "sha256": "a8f6de1fdc29c27700150eeead85b30b8cea81ab4ff6ef79cb94443bd3dc0617"
+  },
+  "loadcfg.c": {
+    "size": 419,
+    "sha256": "46076d9ef2876abdb936b11c0e2d5cc082a2a1defb981776bcd1cb34e0f6e28b"
+  },
+  "helper.dll": {
+    "size": 2048,
+    "sha256": "ebd5236572116c9d6d42eaa7f54dfd0067de9785ba4f40dd7058d2b66472e770"
+  },
+  "source.exe": {
+    "size": 3584,
+    "sha256": "502c31d6011c78b4f8fae1be4a4202e77d25b5da1018dec03e7e58cb22c38cff"
+  },
+  "branch-source.s": {
+    "size": 2821,
+    "sha256": "136f6904bff39c7d16320475066ae01b5d15e7f4ebbf3b1cdb57b7c32168cbbe"
+  },
+  "tools": {
+    "clang-cl": "clang version 21.1.8\nTarget: x86_64-pc-windows-msvc\nThread model: posix\nInstalledDir: /nix/store/jmgw1yz3xm3bpgrk9r84jkcynskdbd40-clang-21.1.8/bin\n",
+    "lld-link": "LLD 21.1.8\n"
+  }
+}

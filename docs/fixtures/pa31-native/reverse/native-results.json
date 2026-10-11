@@ -1,0 +1,122 @@
+﻿[
+    {
+        "file_type":  1,
+        "target_size":  0,
+        "reverse_size":  140,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "empty-268435456",
+        "flags":  268435456,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  0,
+        "reverse_size":  140,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "empty-436207616",
+        "flags":  436207616,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  0,
+        "reverse_size":  140,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "abc-268435456",
+        "flags":  268435456,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  0,
+        "reverse_size":  140,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "abc-436207616",
+        "flags":  436207616,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  8192,
+        "reverse_size":  154,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "identical-268435456",
+        "flags":  268435456,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  8192,
+        "reverse_size":  154,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "identical-436207616",
+        "flags":  436207616,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  8192,
+        "reverse_size":  225,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "changed-268435456",
+        "flags":  268435456,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  8192,
+        "reverse_size":  230,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "changed-436207616",
+        "flags":  436207616,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  8192,
+        "reverse_size":  225,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "reverse-268435456",
+        "flags":  268435456,
+        "file_time":  0
+    },
+    {
+        "file_type":  1,
+        "target_size":  8192,
+        "reverse_size":  218,
+        "file_type_set":  257,
+        "hash_alg":  32780,
+        "success":  true,
+        "magic":  "PA31",
+        "name":  "reverse-436207616",
+        "flags":  436207616,
+        "file_time":  0
+    }
+]

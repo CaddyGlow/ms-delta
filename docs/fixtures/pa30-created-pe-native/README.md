@@ -1,0 +1,19 @@
+# Rust-created unmanaged PE PA30 native known answers
+
+These 14 forward/reverse cases apply Rust-created PA30 patches to seven pairs of original, never-executed PE inputs. Windows `ApplyDeltaB` produced every exact target. Native `GetDeltaInfoB` independently confirmed legacy I386 graph 2 or AMD64 graph 8, file-type set 15, SHA-1 and zero target FILETIME. Source SHA-256 values remained unchanged. `manifest.json` records both the Rust patch and a RAW creation control, outer buffers, input hashes and native proof; `execution.json` and `native-results.json` retain the native run.
+
+`prepare_inputs.py` copies the existing original I386 and AMD64 fixture binaries and derives header-only variants. Those variants modify ImageBase, timestamp, checksum and global-pointer directory RVA. `pointer_inputs.py` constructs two additional original PE images with three sections and 2,048 varied absolute pointers, with corresponding HIGHLOW or DIR64 relocation entries. A deterministic xorshift32 stream seeded with 5071 supplies `.text` bytes and pointer RVA choices. The target changes ImageBase while retaining section geometry. These are parser fixtures, not executable application examples.
+
+The pointer-heavy AMD64 patches are 112 bytes each, compared with 5,770-byte RAW controls. I386 patches are 111 bytes each, compared with 7,659 and 7,666-byte RAW controls. All four select relocation normalization flag `0x20`. Small, shifted and header-only controls instead incur 25–78 additional bytes of typed preprocessing overhead. PE creation therefore provides useful gains for suitable inputs, without promising a reduction for every PE.
+
+## Native provenance
+
+The isolated disposable VM was `cbs-psfx-pre-esu-1004`, Windows 10 build 19045.5073, with `VM_NET=none`. Native oracle `C:\Windows\System32\msdelta.dll` has SHA-256 `098a2a12856c374b418013a1806a9f9f14517c733aed83886ec657c21b57d755`, file version `5.00 (WinBuild.160101.0800)`. `apply.ps1` compiles its original P/Invoke wrapper using the guest's .NET Framework compiler 4.8.4084.0. It calls only the public `ApplyDeltaB`, `GetDeltaInfoB` and `DeltaFree` exports for this gate; zero-length outputs skip `Marshal.Copy`. Microsoft binaries remain in the local cache, outside these fixtures. Prior original C/assembly input build commands and compiler provenance are retained in the referenced `pa30-pe-native` and `pa30-pe32-native/native-i386` trees.
+
+## Reproduction
+
+Build with `cargo build --locked -p windows-delta --features cli`. In a disposable copy of this fixture directory, remove generated delta and buffer outputs, then run `WINDOWS_DELTA_CLI=/absolute/path/to/windows-delta python3 generate.py`. The CLI refuses to overwrite existing outputs. `prepare_inputs.py` and `pointer_inputs.py` regenerate controlled input bytes; they overwrite only their fixture input files. `generate.py` creates both `create --format pa30 --pe` and RAW controls and records outer-buffer details through the existing research inspector.
+
+For native reproduction, transfer each manifest row's source, target and PE delta as `<name>.source`, `<name>.target` and `<name>.delta` into `C:\pa30-created-pe-oracle`, with `manifest.json` and `apply.ps1`. Run PowerShell with `-NoProfile -ExecutionPolicy Bypass -File C:\pa30-created-pe-oracle\apply.ps1`. This gate validates the implemented unmanaged PE creation subset against the pinned native DLL; it does not establish managed PE creation or universal compression gains.
+
+The owned guest temporary directory was removed successfully. Native Windows shutdown completed with launcher exit 0 and both guest-agent/QMP control sockets unavailable; the guest agent disconnected before it could collect the shutdown process exit status. `vm-shutdown.json` and the cleanup/shutdown execution records preserve this distinction. No forced QEMU termination was used.

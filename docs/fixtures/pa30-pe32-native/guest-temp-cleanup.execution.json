@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "Ww0KICAgIHsNCiAgICAgICAgImJ5dGVzX3JlbW92ZWQiOiAgMTE0NDY5MiwNCiAgICAgICAgInBhdGgiOiAgIkM6XFxwYTMwLXBlMzItb3JhY2xlIiwNCiAgICAgICAgImZpbGVzX3JlbW92ZWQiOiAgMjkzLA0KICAgICAgICAiYWJzZW50IjogIHRydWUNCiAgICB9LA0KICAgIHsNCiAgICAgICAgImJ5dGVzX3JlbW92ZWQiOiAgMzUzNzUsDQogICAgICAgICJwYXRoIjogICJDOlxccGEzMC1uYXRpdmUtaTM4NiIsDQogICAgICAgICJmaWxlc19yZW1vdmVkIjogIDMxLA0KICAgICAgICAiYWJzZW50IjogIHRydWUNCiAgICB9LA0KICAgIHsNCiAgICAgICAgImJ5dGVzX3JlbW92ZWQiOiAgMzQzNjgsDQogICAgICAgICJwYXRoIjogICJDOlxccGEzMC1sZWdhY3ktc2NoZW1hIiwNCiAgICAgICAgImZpbGVzX3JlbW92ZWQiOiAgMTMsDQogICAgICAgICJhYnNlbnQiOiAgdHJ1ZQ0KICAgIH0sDQogICAgew0KICAgICAgICAiYnl0ZXNfcmVtb3ZlZCI6ICAyMjg3MTEzNSwNCiAgICAgICAgInBhdGgiOiAgIkM6XFxwYTMwLWNyZWF0ZWQtb3JhY2xlIiwNCiAgICAgICAgImZpbGVzX3JlbW92ZWQiOiAgNjgsDQogICAgICAgICJhYnNlbnQiOiAgdHJ1ZQ0KICAgIH0NCl0NCg==",
+  "stdout": "[\r\n    {\r\n        \"bytes_removed\":  1144692,\r\n        \"path\":  \"C:\\\\pa30-pe32-oracle\",\r\n        \"files_removed\":  293,\r\n        \"absent\":  true\r\n    },\r\n    {\r\n        \"bytes_removed\":  35375,\r\n        \"path\":  \"C:\\\\pa30-native-i386\",\r\n        \"files_removed\":  31,\r\n        \"absent\":  true\r\n    },\r\n    {\r\n        \"bytes_removed\":  34368,\r\n        \"path\":  \"C:\\\\pa30-legacy-schema\",\r\n        \"files_removed\":  13,\r\n        \"absent\":  true\r\n    },\r\n    {\r\n        \"bytes_removed\":  22871135,\r\n        \"path\":  \"C:\\\\pa30-created-oracle\",\r\n        \"files_removed\":  68,\r\n        \"absent\":  true\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

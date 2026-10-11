@@ -1,0 +1,90 @@
+[
+  {
+    "flags": 1,
+    "name": "final-five",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 48,
+    "target_size": 9,
+    "delta_sha256": "5ff4b5a84b03cc2a8f98cbc360ff39ecd931ca097cea1e77feb5ff2238d99373",
+    "target_sha256": "366e743f4e1de020601962ffeac07b3f6d93f9e32e9ca5bdd2e1a6e3ab7bc8b3"
+  },
+  {
+    "flags": 1,
+    "name": "incomplete-tail",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 47,
+    "target_size": 8,
+    "delta_sha256": "e92804dd3cea763b16e16eb3c7cc16f8dd0f32e09745f244c0b09def649b1b31",
+    "target_sha256": "3e930c384ba7ec71b2a092c223442012d179dacdc8cecde68127d0a471ecd6c2"
+  },
+  {
+    "flags": 1,
+    "name": "negative-out-of-range",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 52,
+    "target_size": 41,
+    "delta_sha256": "2aa6ca99a3b7e003171ff26d838f1a38220dbe79e5ea367c49f549f2c8e88ed8",
+    "target_sha256": "6d0d151aaeec04693ccc3039d338c6c83f9501ddbb3f37f803a7c756df9fdec3"
+  },
+  {
+    "flags": 1,
+    "name": "negative",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 51,
+    "target_size": 41,
+    "delta_sha256": "641b0945b5b61dcc1d59ae18357f852d78617f05e8840aab0607081b8f2ee2d6",
+    "target_sha256": "9515db34d3d117418646cc743142dec5ace73ffee719a091af26761a6bd7b5a4"
+  },
+  {
+    "flags": 1,
+    "name": "nested-operand",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 52,
+    "target_size": 521,
+    "delta_sha256": "a788ef658944fca595a2cb58d302ea749593eef072cb39bc5a3b4294fb6600d5",
+    "target_sha256": "d05aad594cd1b4af0c38fa1554657884c3f9621a9d06c3264a047c4f1e1cec56"
+  },
+  {
+    "flags": 1,
+    "name": "out-of-range",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 52,
+    "target_size": 41,
+    "delta_sha256": "f678d9ee385ca59329db06e56c1da7708e20942f7465024ee9978d6533e7aa5b",
+    "target_sha256": "1fe8123ce438b40177f322627005530ef5e5d3a9895909eb3d245bd42543afdb"
+  },
+  {
+    "flags": 1,
+    "name": "positive",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 51,
+    "target_size": 41,
+    "delta_sha256": "8c97153a9b9f21e455e06fe99597497154997fd2660597fdde502179f8d9221b",
+    "target_sha256": "d3172cfefe508344573fff38a9bc9b5c9bfc3a3d8f1db2dc97d4e09963247501"
+  },
+  {
+    "flags": 1,
+    "name": "zero",
+    "type_set": 1,
+    "type": 1,
+    "native_roundtrip": true,
+    "delta_size": 46,
+    "target_size": 37,
+    "delta_sha256": "99e9c7b9637a48ca096e4eaf122b942c29ac6b6706d089ee95692c65985cc1da",
+    "target_sha256": "352a618e5372cc37be6e714894c8f5dc45b89551297f38443de0826d26df598e"
+  }
+]

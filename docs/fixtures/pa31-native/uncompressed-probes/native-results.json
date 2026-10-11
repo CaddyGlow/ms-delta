@@ -1,0 +1,42 @@
+﻿[
+    {
+        "flags":  301989888,
+        "file_type_set":  1,
+        "name":  "uncompressed-empty",
+        "apply_success":  true,
+        "target_matches":  true,
+        "info_success":  true
+    },
+    {
+        "apply_error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:277252\"",
+        "flags":  301989888,
+        "file_type_set":  1,
+        "name":  "uncompressed-abc",
+        "apply_success":  false,
+        "info_success":  true
+    },
+    {
+        "apply_error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:277252\"",
+        "flags":  301989888,
+        "file_type_set":  1,
+        "name":  "uncompressed-identical",
+        "apply_success":  false,
+        "info_success":  true
+    },
+    {
+        "apply_error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:277252\"",
+        "flags":  301989888,
+        "file_type_set":  1,
+        "name":  "uncompressed-changed",
+        "apply_success":  false,
+        "info_success":  true
+    },
+    {
+        "apply_error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:277252\"",
+        "flags":  301989888,
+        "file_type_set":  1,
+        "name":  "uncompressed-reverse",
+        "apply_success":  false,
+        "info_success":  true
+    }
+]

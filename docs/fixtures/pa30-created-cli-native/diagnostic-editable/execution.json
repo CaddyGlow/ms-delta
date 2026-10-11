@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout_base64": "Ww0KICAgIHsNCiAgICAgICAgInNvdXJjZV9jaGFuZ2VkIjogIHRydWUsDQogICAgICAgICJlcnJvciI6ICAiRXhjZXB0aW9uIGNhbGxpbmcgXCJBcHBseVwiIHdpdGggXCIyXCIgYXJndW1lbnQocyk6IFwiQXBwbHlEZWx0YUI6MTNcIiIsDQogICAgICAgICJmYW1pbHkiOiAgInNpZ25hdHVyZXMiLA0KICAgICAgICAic2l6ZSI6ICA1NjMyLA0KICAgICAgICAic3VjY2VzcyI6ICBmYWxzZQ0KICAgIH0sDQogICAgew0KICAgICAgICAic291cmNlX2NoYW5nZWQiOiAgdHJ1ZSwNCiAgICAgICAgImVycm9yIjogICJFeGNlcHRpb24gY2FsbGluZyBcIkFwcGx5XCIgd2l0aCBcIjJcIiBhcmd1bWVudChzKTogXCJBcHBseURlbHRhQjoxM1wiIiwNCiAgICAgICAgImZhbWlseSI6ICAiYXR0cmlidXRlcyIsDQogICAgICAgICJzaXplIjogIDYxNDQsDQogICAgICAgICJzdWNjZXNzIjogIGZhbHNlDQogICAgfQ0KXQ0K",
+  "stdout": "[\r\n    {\r\n        \"source_changed\":  true,\r\n        \"error\":  \"Exception calling \\\"Apply\\\" with \\\"2\\\" argument(s): \\\"ApplyDeltaB:13\\\"\",\r\n        \"family\":  \"signatures\",\r\n        \"size\":  5632,\r\n        \"success\":  false\r\n    },\r\n    {\r\n        \"source_changed\":  true,\r\n        \"error\":  \"Exception calling \\\"Apply\\\" with \\\"2\\\" argument(s): \\\"ApplyDeltaB:13\\\"\",\r\n        \"family\":  \"attributes\",\r\n        \"size\":  6144,\r\n        \"success\":  false\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

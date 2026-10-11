@@ -1,0 +1,5 @@
+# Rust-created mixed and ReadyToRun native validation
+
+All eight Rust-created typed PA30/PA31 patches passed native ApplyDeltaB exactly, covering original mixed and ReadyToRun images in both directions. The manifest includes checked source/target bytes and hashes, patch hashes and inline native metadata. Source SHA-256 values remained unchanged. Input provenance is retained in the sibling fixture directories; these images are never executed.
+
+`generate.py` invokes the standalone CLI's `create --format pa30|pa31 --pe`. Reproduce in a copy without outputs using `WINDOWS_DELTA_CLI=/absolute/path/to/windows-delta python3 generate.py`. Native `apply.ps1` uses the pinned UpdateCompression.dll and VM provenance documented in the PA31 native fixture. Place the DLL at `C:\pa31-oracle\UpdateCompression.dll`; transfer named inputs/deltas and the manifest to `C:\pa30-created-cli-oracle`, then run its script with PowerShell ExecutionPolicy Bypass. SHA-1 is used for PA30 and SHA-256 for PA31; native headers confirm zero target FILETIME. No claim of runnable mixed-mode Windows binaries is made by this parser/patch gate.

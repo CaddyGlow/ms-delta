@@ -1,0 +1,76 @@
+[
+ {
+  "name": "default",
+  "patch": "fx_default.pa19",
+  "olds": [
+   "fx_old.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "ignore",
+  "patch": "fx_ignore.pa19",
+  "olds": [
+   "fx_old.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "retain",
+  "patch": "fx_retain.pa19",
+  "olds": [
+   "fx_old.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "ignore_retain",
+  "patch": "fx_ignore_retain.pa19",
+  "olds": [
+   "fx_old.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "multi",
+  "patch": "fx_multi.pa19",
+  "olds": [
+   "fx_old.bin",
+   "fx_old2.bin",
+   "fx_old3.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "ilv_two",
+  "patch": "fx_ilv_two.pa19",
+  "olds": [
+   "fx_old.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "ilv_two_small",
+  "patch": "fx_ilv_two_small.pa19",
+  "olds": [
+   "fx_old.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "nots",
+  "patch": "fx_nots.pa19",
+  "olds": [
+   "fx_old.bin"
+  ],
+  "new": "fx_new.bin"
+ },
+ {
+  "name": "same",
+  "patch": "fx_same.pa19",
+  "olds": [
+   "fx_new.bin"
+  ],
+  "new": "fx_new.bin"
+ }
+]

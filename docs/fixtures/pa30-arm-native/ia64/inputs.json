@@ -1,0 +1,24 @@
+[
+  {
+    "name": "source",
+    "size": 3072,
+    "sha256": "b1fe1b4c1618139e387a7417220d28b0c2019da34c4384f99a423ac595e90203",
+    "machine": 512,
+    "image_base": 5368709120,
+    "global_pointer": 8448,
+    "data_rva": 8192,
+    "pdata_rva": 12288,
+    "reloc_rva": 16384
+  },
+  {
+    "name": "target",
+    "size": 3072,
+    "sha256": "4ea9f7b36e209d56b7e14245086139407e2152444db24875267c57b3cf1e4ce3",
+    "machine": 512,
+    "image_base": 6492782592,
+    "global_pointer": 12544,
+    "data_rva": 12288,
+    "pdata_rva": 16384,
+    "reloc_rva": 20480
+  }
+]

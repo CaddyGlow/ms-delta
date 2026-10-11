@@ -1,0 +1,41 @@
+﻿[
+    {
+        "flags":  268435456,
+        "file_type_set":  1,
+        "name":  "fields-136-1-0",
+        "apply_success":  true,
+        "target_matches":  true,
+        "info_success":  true
+    },
+    {
+        "flags":  268435456,
+        "file_type_set":  1,
+        "name":  "fields-136-1-1",
+        "apply_success":  true,
+        "target_matches":  true,
+        "info_success":  true
+    },
+    {
+        "apply_error":  "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262659\"",
+        "info_success":  false,
+        "name":  "fields-136-1-2",
+        "apply_success":  false,
+        "info_error":  "Exception calling \"Info\" with \"1\" argument(s): \"GetDeltaInfoB:262659\""
+    },
+    {
+        "flags":  268435456,
+        "file_type_set":  1,
+        "name":  "fields-136-2-0",
+        "apply_success":  true,
+        "target_matches":  true,
+        "info_success":  true
+    },
+    {
+        "flags":  268435456,
+        "file_type_set":  1,
+        "name":  "fields-80-0-0",
+        "apply_success":  true,
+        "target_matches":  true,
+        "info_success":  true
+    }
+]

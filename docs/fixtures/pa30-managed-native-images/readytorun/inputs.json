@@ -1,0 +1,22 @@
+{
+  "source.dll": {
+    "size": 16384,
+    "sha256": "ff5f2fe1456c3ba758ce908470adb9e934cda4948ae031a61f7acc128c06df8a"
+  },
+  "target.dll": {
+    "size": 16384,
+    "sha256": "953a725fbe14f009027c701efe1c7ccf199ad0c54651b5f843b3c1d36134007b"
+  },
+  "source.cs": {
+    "size": 148,
+    "sha256": "e1402ec35df19f69e9aa9f84840709dd67f7606312d36c0ea78f86a2a79fec7f"
+  },
+  "target.cs": {
+    "size": 150,
+    "sha256": "5b3fa0bff67be5a911db070d2a5ed12207a06ccac560138d16d45d72b08c9c21"
+  },
+  "Original.csproj": {
+    "size": 297,
+    "sha256": "fbb2d5699d10497f05335a8549765313bf57eff30c9ae07677a56329a1bca11c"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source.cs": {
+    "size": 53772,
+    "sha256": "3d3c7445f2646ea66dd800c3cfacc85312fefe00d61ac3ef5369b199c74f5e4b"
+  },
+  "target.cs": {
+    "size": 89672,
+    "sha256": "02235db3c2d68fe2471f380d958398d56f6b4e34ed5b266e62b99f90b8b97276"
+  },
+  "source.dll": {
+    "size": 56832,
+    "sha256": "e0598886e18e34cb161a72e7d4ade2f4ab8669b3e45fd8e7411780b9afc742c7"
+  },
+  "target.dll": {
+    "size": 95232,
+    "sha256": "1b98c5b4f914b67a025d60461b13348e05566c1ea42b96d975c94eb357c9011c"
+  }
+}

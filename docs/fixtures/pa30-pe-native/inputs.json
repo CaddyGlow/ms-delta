@@ -1,0 +1,18 @@
+{
+  "shifted.exe": {
+    "sha256": "74d8f2b869017ff4f9d474acd0c7b4d9dcaac2ef824a413e7c785011af292413",
+    "size": 3584
+  },
+  "target.exe": {
+    "sha256": "e0f9b15175c10b971c197e43b791ee601f381270e4948a3d121389cfb7a9f388",
+    "size": 3584
+  },
+  "source.exe": {
+    "sha256": "ce48866b65e6a3ec1b378591ffee052eb52b17c2fdbb7ec88240670b82719b8a",
+    "size": 3584
+  },
+  "tools": {
+    "clang-cl": "clang version 21.1.8\nTarget: x86_64-pc-windows-msvc\nThread model: posix\nInstalledDir: /nix/store/jmgw1yz3xm3bpgrk9r84jkcynskdbd40-clang-21.1.8/bin\n",
+    "lld-link": "LLD 21.1.8\n"
+  }
+}

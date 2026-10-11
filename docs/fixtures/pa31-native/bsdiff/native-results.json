@@ -1,0 +1,170 @@
+﻿[
+    {
+        "input":  "empty",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "empty-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  63,
+        "target_size":  0,
+        "hash_alg":  32780,
+        "name":  "empty-436207616",
+        "target_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "empty",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "input":  "abc",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "abc-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  95,
+        "target_size":  3,
+        "hash_alg":  32780,
+        "name":  "abc-436207616",
+        "target_sha256":  "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "abc",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "input":  "all256",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "all256-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  106,
+        "target_size":  256,
+        "hash_alg":  32780,
+        "name":  "all256-436207616",
+        "target_sha256":  "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "all256",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "input":  "random",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "random-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  8287,
+        "target_size":  8192,
+        "hash_alg":  32780,
+        "name":  "random-436207616",
+        "target_sha256":  "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "random",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "input":  "repetitive",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "repetitive-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  144,
+        "target_size":  9472,
+        "hash_alg":  32780,
+        "name":  "repetitive-436207616",
+        "target_sha256":  "a0b2c14a14de31a0abaa9c384450cebe13b498e0d4e956a35e940343fabcd2ea",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "repetitive",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "input":  "identical",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "identical-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  146,
+        "target_size":  8192,
+        "hash_alg":  32780,
+        "name":  "identical-436207616",
+        "target_sha256":  "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "identical",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb"
+    },
+    {
+        "input":  "changed",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "changed-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  188,
+        "target_size":  8192,
+        "hash_alg":  32780,
+        "name":  "changed-436207616",
+        "target_sha256":  "1d588a99514ec207541b8d9628d87b69f333aa21942b07fa88dd43608c76cf14",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "changed",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb"
+    },
+    {
+        "input":  "reverse",
+        "error":  "Exception calling \"CreateFlags\" with \"6\" argument(s): \"CreateDeltaB:277252\"",
+        "name":  "reverse-301989888",
+        "success":  false
+    },
+    {
+        "file_type_set":  1,
+        "magic":  "PA31",
+        "delta_size":  188,
+        "target_size":  8192,
+        "hash_alg":  32780,
+        "name":  "reverse-436207616",
+        "target_sha256":  "ff063212192822e3373e45d1eb4ac1c32d639ec10c9d68a89bb1d53be1da94bb",
+        "flags":  436207616,
+        "success":  true,
+        "input":  "reverse",
+        "file_time":  132537600000000000,
+        "file_type":  1,
+        "source_sha256_after":  "1d588a99514ec207541b8d9628d87b69f333aa21942b07fa88dd43608c76cf14"
+    }
+]

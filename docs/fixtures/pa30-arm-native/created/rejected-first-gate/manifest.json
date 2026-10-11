@@ -1,0 +1,254 @@
+[
+  {
+    "name": "arm-forward-pa30",
+    "family": "arm",
+    "format": "pa30",
+    "direction": "forward",
+    "source": "arm-forward-pa30.source",
+    "target": "arm-forward-pa30.target",
+    "delta": "arm-forward-pa30.delta",
+    "delta_size": 416,
+    "delta_sha256": "0ce41f6ed07ef167f8f18160bb65186e5b84afe613c7104d18e6cf0755429271",
+    "source_sha256": "ee97b954c8d5b45b20c9717d28c3beba0da9efcb8becb92d8b3619a058dd8a51",
+    "target_sha256": "a72935ed15493add46377684edec07a7ed61b914a1eee235ec625359a170059a",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "arm-forward-pa30",
+      "success": false
+    }
+  },
+  {
+    "name": "arm-forward-pa31",
+    "family": "arm",
+    "format": "pa31",
+    "direction": "forward",
+    "source": "arm-forward-pa31.source",
+    "target": "arm-forward-pa31.target",
+    "delta": "arm-forward-pa31.delta",
+    "delta_size": 468,
+    "delta_sha256": "ba4fe339b987ae9f747a3b9c6591eb0256b1e3b0856f5fb0604d69e766800f20",
+    "source_sha256": "ee97b954c8d5b45b20c9717d28c3beba0da9efcb8becb92d8b3619a058dd8a51",
+    "target_sha256": "a72935ed15493add46377684edec07a7ed61b914a1eee235ec625359a170059a",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "arm-forward-pa31",
+      "success": false
+    }
+  },
+  {
+    "name": "arm-reverse-pa30",
+    "family": "arm",
+    "format": "pa30",
+    "direction": "reverse",
+    "source": "arm-reverse-pa30.source",
+    "target": "arm-reverse-pa30.target",
+    "delta": "arm-reverse-pa30.delta",
+    "delta_size": 352,
+    "delta_sha256": "511e1cf9d8d50551fac6ffc59d1ca5dd5783f6730fbdb9872fab721dd1bd796f",
+    "source_sha256": "a72935ed15493add46377684edec07a7ed61b914a1eee235ec625359a170059a",
+    "target_sha256": "ee97b954c8d5b45b20c9717d28c3beba0da9efcb8becb92d8b3619a058dd8a51",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "arm-reverse-pa30",
+      "success": false
+    }
+  },
+  {
+    "name": "arm-reverse-pa31",
+    "family": "arm",
+    "format": "pa31",
+    "direction": "reverse",
+    "source": "arm-reverse-pa31.source",
+    "target": "arm-reverse-pa31.target",
+    "delta": "arm-reverse-pa31.delta",
+    "delta_size": 403,
+    "delta_sha256": "51219c04ef20bc740cec281f00befc252859e71b504c98370b894ec2e120c5f3",
+    "source_sha256": "a72935ed15493add46377684edec07a7ed61b914a1eee235ec625359a170059a",
+    "target_sha256": "ee97b954c8d5b45b20c9717d28c3beba0da9efcb8becb92d8b3619a058dd8a51",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "arm-reverse-pa31",
+      "success": false
+    }
+  },
+  {
+    "name": "arm64-forward-pa30",
+    "family": "arm64",
+    "format": "pa30",
+    "direction": "forward",
+    "source": "arm64-forward-pa30.source",
+    "target": "arm64-forward-pa30.target",
+    "delta": "arm64-forward-pa30.delta",
+    "delta_size": 415,
+    "delta_sha256": "6b1b2c2af075eeb6d1a8b11a53dd3a704b740a5bc69582542a57ac6a9340c378",
+    "source_sha256": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+    "target_sha256": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+    "native_oracle": {
+      "native_file_time": 0,
+      "native_target_sha256": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+      "native_target_size": 11776,
+      "native_target_matches": true,
+      "native_file_type_set": 245,
+      "native_target_hash_algorithm": 32772,
+      "success": true,
+      "name": "arm64-forward-pa30",
+      "native_file_type": 128,
+      "native_target_hash": "9f42ba798384630fba874e9b2861d788a2a8a9f8",
+      "source_sha256_after": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+      "native_flags": 32
+    }
+  },
+  {
+    "name": "arm64-forward-pa31",
+    "family": "arm64",
+    "format": "pa31",
+    "direction": "forward",
+    "source": "arm64-forward-pa31.source",
+    "target": "arm64-forward-pa31.target",
+    "delta": "arm64-forward-pa31.delta",
+    "delta_size": 469,
+    "delta_sha256": "5f24ba9781f89eb69c606d20a40b96ec26b81b08fd6df56b1501e44ff2970427",
+    "source_sha256": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+    "target_sha256": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+    "native_oracle": {
+      "native_file_time": 0,
+      "native_target_sha256": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+      "native_target_size": 11776,
+      "native_target_matches": true,
+      "native_file_type_set": 245,
+      "native_target_hash_algorithm": 32780,
+      "success": true,
+      "name": "arm64-forward-pa31",
+      "native_file_type": 128,
+      "native_target_hash": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+      "source_sha256_after": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+      "native_flags": 268435488
+    }
+  },
+  {
+    "name": "arm64-reverse-pa30",
+    "family": "arm64",
+    "format": "pa30",
+    "direction": "reverse",
+    "source": "arm64-reverse-pa30.source",
+    "target": "arm64-reverse-pa30.target",
+    "delta": "arm64-reverse-pa30.delta",
+    "delta_size": 332,
+    "delta_sha256": "cd403fd52fdede7a5f167dac8a9eb1da8c4411551f5a95d6b9f6bd4924cfade9",
+    "source_sha256": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+    "target_sha256": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+    "native_oracle": {
+      "native_file_time": 0,
+      "native_target_sha256": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+      "native_target_size": 3584,
+      "native_target_matches": true,
+      "native_file_type_set": 245,
+      "native_target_hash_algorithm": 32772,
+      "success": true,
+      "name": "arm64-reverse-pa30",
+      "native_file_type": 128,
+      "native_target_hash": "cf71508bb92207039702a8edab714e0d13c20203",
+      "source_sha256_after": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+      "native_flags": 25174078
+    }
+  },
+  {
+    "name": "arm64-reverse-pa31",
+    "family": "arm64",
+    "format": "pa31",
+    "direction": "reverse",
+    "source": "arm64-reverse-pa31.source",
+    "target": "arm64-reverse-pa31.target",
+    "delta": "arm64-reverse-pa31.delta",
+    "delta_size": 383,
+    "delta_sha256": "9c93ce7dc55dadbb65a095c73659d772c1eeef6b27aface7eb1154a0f4a2d0e0",
+    "source_sha256": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+    "target_sha256": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+    "native_oracle": {
+      "native_file_time": 0,
+      "native_target_sha256": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+      "native_target_size": 3584,
+      "native_target_matches": true,
+      "native_file_type_set": 245,
+      "native_target_hash_algorithm": 32780,
+      "success": true,
+      "name": "arm64-reverse-pa31",
+      "native_file_type": 128,
+      "native_target_hash": "45008f5edc6f27ea83106e7d0abe919f819ee98a8852acd1f4da097214bd7dcd",
+      "source_sha256_after": "262935d0d8ba640bb0b6200d1c5094febbb3c773bc31492884990ee34d696dfa",
+      "native_flags": 293609534
+    }
+  },
+  {
+    "name": "ia64-forward-pa30",
+    "family": "ia64",
+    "format": "pa30",
+    "direction": "forward",
+    "source": "ia64-forward-pa30.source",
+    "target": "ia64-forward-pa30.target",
+    "delta": "ia64-forward-pa30.delta",
+    "delta_size": 211,
+    "delta_sha256": "e5c3d795e63550cac2e0b779d8ba41d0e0293aa916af0b75efe553b2787a43d7",
+    "source_sha256": "b1fe1b4c1618139e387a7417220d28b0c2019da34c4384f99a423ac595e90203",
+    "target_sha256": "4ea9f7b36e209d56b7e14245086139407e2152444db24875267c57b3cf1e4ce3",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "ia64-forward-pa30",
+      "success": false
+    }
+  },
+  {
+    "name": "ia64-forward-pa31",
+    "family": "ia64",
+    "format": "pa31",
+    "direction": "forward",
+    "source": "ia64-forward-pa31.source",
+    "target": "ia64-forward-pa31.target",
+    "delta": "ia64-forward-pa31.delta",
+    "delta_size": 264,
+    "delta_sha256": "257dfd90d25b68a309a57315965c175fb1587250c8651b60fda34cc5645f3e19",
+    "source_sha256": "b1fe1b4c1618139e387a7417220d28b0c2019da34c4384f99a423ac595e90203",
+    "target_sha256": "4ea9f7b36e209d56b7e14245086139407e2152444db24875267c57b3cf1e4ce3",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "ia64-forward-pa31",
+      "success": false
+    }
+  },
+  {
+    "name": "ia64-reverse-pa30",
+    "family": "ia64",
+    "format": "pa30",
+    "direction": "reverse",
+    "source": "ia64-reverse-pa30.source",
+    "target": "ia64-reverse-pa30.target",
+    "delta": "ia64-reverse-pa30.delta",
+    "delta_size": 212,
+    "delta_sha256": "dbda6425153ce9708fa0c76a3f2d801b2a9ec9fb7c819663181277df3fc3f974",
+    "source_sha256": "4ea9f7b36e209d56b7e14245086139407e2152444db24875267c57b3cf1e4ce3",
+    "target_sha256": "b1fe1b4c1618139e387a7417220d28b0c2019da34c4384f99a423ac595e90203",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "ia64-reverse-pa30",
+      "success": false
+    }
+  },
+  {
+    "name": "ia64-reverse-pa31",
+    "family": "ia64",
+    "format": "pa31",
+    "direction": "reverse",
+    "source": "ia64-reverse-pa31.source",
+    "target": "ia64-reverse-pa31.target",
+    "delta": "ia64-reverse-pa31.delta",
+    "delta_size": 265,
+    "delta_sha256": "82f6ae9ae6a5ae767757614c27deb2da2e04b1684a6c0c9d45564c3ef29d5657",
+    "source_sha256": "4ea9f7b36e209d56b7e14245086139407e2152444db24875267c57b3cf1e4ce3",
+    "target_sha256": "b1fe1b4c1618139e387a7417220d28b0c2019da34c4384f99a423ac595e90203",
+    "native_oracle": {
+      "error": "Exception calling \"Apply\" with \"2\" argument(s): \"ApplyDeltaB:262914\"",
+      "name": "ia64-reverse-pa31",
+      "success": false
+    }
+  }
+]

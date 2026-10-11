@@ -1,0 +1,57 @@
+[
+  {
+    "name": "fields-136-1-0",
+    "fields": [
+      136,
+      1,
+      0
+    ],
+    "delta": "fields-136-1-0.delta",
+    "source": "../identical.source",
+    "target": "../identical.target"
+  },
+  {
+    "name": "fields-136-1-1",
+    "fields": [
+      136,
+      1,
+      1
+    ],
+    "delta": "fields-136-1-1.delta",
+    "source": "../identical.source",
+    "target": "../identical.target"
+  },
+  {
+    "name": "fields-136-1-2",
+    "fields": [
+      136,
+      1,
+      2
+    ],
+    "delta": "fields-136-1-2.delta",
+    "source": "../identical.source",
+    "target": "../identical.target"
+  },
+  {
+    "name": "fields-136-2-0",
+    "fields": [
+      136,
+      2,
+      0
+    ],
+    "delta": "fields-136-2-0.delta",
+    "source": "../identical.source",
+    "target": "../identical.target"
+  },
+  {
+    "name": "fields-80-0-0",
+    "fields": [
+      80,
+      0,
+      0
+    ],
+    "delta": "fields-80-0-0.delta",
+    "source": "../identical.source",
+    "target": "../identical.target"
+  }
+]
